@@ -1,0 +1,133 @@
+.whole-Row {
+  display: flex;
+}
+
+.Left_TVL {
+  padding-right: 20px;
+  padding-top: 100px;
+  position: relative;
+  bottom: -70px;
+  position: relative;
+  right: -40px;
+}
+
+.Right_Vol {
+  position: relative;
+  text-align: center;
+  margin-top: -84px;
+  padding-left: 45px;
+  font-size: 16px;
+  left: 60px;
+}
+.Image_graph {
+  padding-top: 50px;
+  padding-left: 20px;
+  position: relative;
+  top: -60px;
+  margin-top: 100
+  px;
+}
+b {
+  font-size: 27px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-right: 400px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: relative;
+  top: -70px;
+  right: -29px;
+}
+
+.outer-outline {
+  outline: 2px solid black;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.but-1 {
+  border: none;
+  color: wheat;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.but-1:hover {
+  background-color: grey;
+}
+
+.but-2:hover {
+  background-color: rgb(221, 225, 228);
+  color: black;
+}
+
+.button-container2 {
+  padding-left: 1200px;
+  padding-bottom: 10px;
+  position: relative;
+  top: -63px;
+  /* right: -280px; */
+  float: right;
+  margin-right: 10% ;
+
+}
+.text {
+  position: relative;
+  bottom: -15px;
+}
+.p2 {
+  position: relative;
+  bottom: -8px;
+}
+.hh {
+  position: relative;
+  top: -10px;
+}
+.Whole {
+  position: relative;
+  top: -130px;
+  margin-left: 10%;
+}
+
+.top {
+  position: relative;
+  margin-left: 10%;
+  /* right: -200px; */
+}
+
+p {
+  color: lightslategray;
+}
+
+.liquid {
+  color: lightslategray;
+}
+
+.text2 {
+  position: relative;
+  left: -30px;
+}
+
+.val2 {
+  position: relative;
+  top: -5px;
+}
+
+.but-2 {
+  border: none;
+  background-color: transparent;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  color: wheat;
+
+}
+.but-2:hover {
+  background-color: rgb(221, 225, 228);
+  color: black;
+}

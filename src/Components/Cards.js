@@ -76,9 +76,9 @@ const App = () => {
                                 </Dropdown.Menu>
                             </Dropdown>
 
-                            <br />   <br />   
+                            <br />   <br />
 
-                            <a style={{ width:'100%'}} className="btn  mx-1 fs-5 connect-btn " to="/createuser">Connect Wallet</a>
+                            <a style={{ width: '100%' }} className="btn  mx-1 fs-5 connect-btn " to="/createuser">Connect Wallet</a>
                         </li>
 
 

@@ -6,13 +6,13 @@ import Footer from '../Components/Footer'
 export default function Home() {
   return (
     <div>
-        <div> <Navbar></Navbar></div>
-        <div> <Cards></Cards></div>
-        
-       
-    <div>  <Footer></Footer>  </div>
+      <div> <Navbar></Navbar></div>
+      <div> <Cards></Cards></div>
 
-   
+
+      <div>  <Footer></Footer>  </div>
+
+
     </div>
   )
 }

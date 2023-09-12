@@ -3,35 +3,46 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="small bg-light">
-      <hr></hr>
-    <div className=" container footer"  >
-     
+
     
-        <div className="fs-4 "   style={{position:'static' , display:'flex' }}>
+    <footer className="small bg-light fs-5">
+      <div  className="footercolor">
+      <hr></hr>
+    <div className=" container "  >
+        <div>
 
           
-            <div className=" py-3 py-sm-5">
-              <div className="row">
-                <div className="col-12 col-sm-6 col-md-3" >
-                  <h6>
-                    <b>Need Help?</b>
-                  </h6>
+            <div style={{display:'flex' , position:'absolute' , left:'100px'}}>
+
+                <div   >
+                
+                    <div className="heading" > Need Help? </div>
+                    <br/>
+                  
                   <ul className="list-unstyled">
                     <li>
-                      Visit our{" "}
+                      <span>  Visit our {" "}  </span>
+                     
                       <a href="https://support.traderjoexyz.com/en/">
                         support centre
                       </a>{" "}
-                      for troubleshooting
+                      <span>  for troubleshooting  </span>
+                      
                     </li>
+                    <br/>
                     <li>
-                      Join our{" "}
+                    <span>  Join our{" "} </span>
+                      
                       <a href="https://support.traderjoexyz.com/en/">
                         offical Discord
-                      </a>{" "}
-                      for dedicated support
+                      </a>{"  "}
+                      <span> for dedicated support </span>
+                      
                     </li>
+
+                    <br/>
+
+
                     <li>
                       <div className="icon-row mx-3">
                         <span className="icon small-icon">
@@ -74,13 +85,28 @@ const Footer = () => {
                   </ul>
                 </div>
 
+<br/>  <br/>  <br/>
+
+                 {/* <ul >
+                    <li className="list-inline-item">
+                      &copy; 2022 Joemart Ltd
+                    </li>
+                    <li className="list-inline-item">All rights reserved.</li>
+                    <li className="list-inline-item">
+                      <a href="#">Terms of use and privacy policy</a>
+                    </li>
+                  </ul> */}
+</div>
 
 
 
-                <div className="col-12 col-sm-6 col-md-3"   >
-                  <h6>
-                    <b>JOE Token</b>
-                  </h6>
+
+<div style={{display:'flex' , position:'absolute' , left:'700px'}}>
+   <div>
+                  <div className="heading" > JOE Token </div>
+
+                  <br/>
+                  
                   <ul className="list-unstyled">
                     <li>
                       <a href="#">Coingecko</a>
@@ -92,9 +118,10 @@ const Footer = () => {
                       <br></br>{" "}
                     </li>
                     <li>
-                      <h8>
-                        <b>Analytics</b>
-                      </h8>
+
+                    <div className="heading" > Analysis </div>
+
+                    <br/>
                     </li>
                     <li>
                       <a href="#">TokenTerminal</a>
@@ -107,13 +134,17 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
+  </div>
 
 
 
-                <div className="col-12 col-sm-6 col-md-3"  >
-                  <h6>
-                    <b>Exchanges</b>
-                  </h6>
+  <div style={{display:'flex' , position:'absolute' , right:'800px'}}>  
+
+                    <div>
+                     <div className="heading" > Exchanges </div>
+
+                     <br/>
+
                   <ul className="list-unstyled">
                     <li>
                       <a href="#">Binance</a>
@@ -132,12 +163,16 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
+  </div>
 
 
-                <div className="col-12 col-sm-6 col-md-3  "  >
+
+  <div style={{display:'flex' , position:'absolute' , right:'300px'}}>
+                 <div  >
                   <address>
-                    <strong>Buisness</strong>
-                    <br />
+                    <div className="heading" >  Buisness </div>
+
+                    <br/>
                     <a href="#">Apply for Patnership</a>
                     <br />
                     <a href="#">Token Listing</a>
@@ -147,30 +182,14 @@ const Footer = () => {
                     <a href="#">Contact Us</a>
                   </address>
                 </div>
+              </div>   
 
-
-              </div>
-              <div className="row">
-                <div className="col-12 col-sm-6 col-md-9">
-                  <ul className="list-inline">
-                    <li className="list-inline-item">
-                      &copy; 2022 Joemart Ltd
-                    </li>
-                    <li className="list-inline-item">All rights reserved.</li>
-                    <li className="list-inline-item">
-                      <a href="#">Terms of use and privacy policy</a>
-                    </li>
-                  </ul>
-                </div>
-              
 
 
               </div>
-            </div>
-          
-        </div>
-     
-    </div>
+              </div>          
+              </div>
+   
     </footer>
   );
 };
