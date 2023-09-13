@@ -50,8 +50,8 @@ color: gray;
 
 .dotbtn:hover {
    
- background-color: rgb(231, 229, 229);
-opacity: 100px;
+ background-color: rgb(225, 218, 218);
+
  border-radius: 5px ;
  cursor: pointer;
  
@@ -76,7 +76,7 @@ opacity: 100px;
     align-items: center;
     width: 100%;
     overflow: hidden;
-    height: 170px;
+    height: 140px;
     background-color: black;
 
 }

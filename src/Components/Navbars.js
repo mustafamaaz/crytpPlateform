@@ -69,7 +69,7 @@ const [cartView,setCartView] = useState(false);
               Pool 
               </Link>
 
-              <svg className='  btn   mx-1 fs-4   mx-1  dotbtn  ' xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+              <svg style={{ paddingRight:'30px' ,paddingLeft:'50px', width:'auto'}} className='  btn   mx-1 fs-4   mx-1  dotbtn  ' xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
                   <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
                 </svg>
 

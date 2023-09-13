@@ -9,7 +9,7 @@ const App = () => {
     return (
 
 
-        <div className='container-fluid' >
+        <div className='container-fluid' style={{paddingTop:'25px'}} >
 
 
             <div className='swapbtn' >
