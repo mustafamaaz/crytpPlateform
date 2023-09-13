@@ -1,14 +1,28 @@
 
-import React  from 'react';
+import {React, useState }  from 'react';
 // import  from 'react-router-dom'
 import { Link,useNavigate } from 'react-router-dom'
 import './style.css';
 
-
+import Modal from '../Model';
+import Cart from '../screens/Cart';
 
 export default function Navbar() {
 
+
+  function  collectBtn (){
+    localStorage.setItem('code',"connect");
+    setCartView(true)
+  }
+
+
+
+
+
+
 let navigate = useNavigate();
+
+const [cartView,setCartView] = useState(false);
 
 
   return (
@@ -71,8 +85,10 @@ let navigate = useNavigate();
 
             <div>
 
-              <Link style={{ position: 'absolute', right: '100px', top: '59px' }} className="btn   mx-1 fs-5 custom-btn-2 " to="/createuser">Connect wallet</Link>
+              <div style={{ position: 'absolute', right: '100px', top: '59px' }} className="btn   mx-1 fs-5 custom-btn-2 " to="/connectwallet"  onClick={collectBtn}  >Connect wallet</div>
 
+
+              { cartView? <Modal onClose={()=> setCartView(false)}   >  <Cart/> </Modal>:null }
 
 
               &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
