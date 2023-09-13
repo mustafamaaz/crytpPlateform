@@ -1,16 +1,10 @@
 import React from "react";
-import "./Pool.css";
+import "../Components/Pool.css";
 
 export default function Poolfont() {
-
-
-  
-
-
-
   return (
     <div>
-      <div className="top">
+      <div className="tp">
         <div className="fs-1">Pool</div>
         <div className="liquid">provide liquidity and earn fees.</div>
       </div>
@@ -24,7 +18,10 @@ export default function Poolfont() {
               <b>$43,305,552</b>
             </div>
           </h2>
-           <div className="button-container">
+          <div
+            className="button-container"
+            style={{ position: "relative", left: "-570px" }}
+          >
             <div className="outer-outline">
               <button className="but-1">7D</button>
               <button className="but-1">30D</button>
@@ -45,25 +42,16 @@ export default function Poolfont() {
             </div>
           </h2>
         </div>
-        <div className="button-container2">
+        <div className="button-containers">
           <div className="outer-outline">
-            <button className="but-1">7D</button>
-            <button className="but-1">30D</button>
-            <button className="but-1">90D</button>
-            <button className="but-1">180D</button>
+            <button className="s1">7D</button>
+            <button className="s1">30D</button>
+            <button className="s1">90D</button>
+            <button className="s1">180D</button>
           </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-        <div className="Image_graph" >
+        <div className="Image_graph">
           <img src="tt.png" alt="graph" />
         </div>
       </div>

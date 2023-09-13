@@ -1,21 +1,16 @@
-import React from 'react'
-import Navbar from '../Components/Navbars'
-import Footer from '../Components/Footer'
-import Stackfront from '../Components/Stackfront'
-
-
+import React from "react";
+import Navbar from "../Components/Navbars";
+import Footer from "../Components/Footer";
+import Stackfront from "../Components/Stackfront";
 
 export default function Pool() {
   return (
     <div>
+      <Navbar />
 
-        <Navbar/>
+      <Stackfront />
 
-     <Stackfront/>
-
-        <Footer/>
-
-
+      <Footer />
     </div>
-  )
+  );
 }
