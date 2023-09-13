@@ -7,14 +7,17 @@ const Footer = () => {
     
     <footer className="small bg-light fs-5">
       <div  className="footercolor">
-      <hr></hr>
-    <div className=" container "  >
-        <div>
+    
+
+    <div className="footer-res" >
+        
 
           
-            <div style={{display:'flex' , position:'absolute' , left:'100px'}}>
+            <div className="foot-1"  >
 
-                <div   >
+            {/* style={{display:'flex' , position:'absolute' , left:'100px'}} */}
+
+                <div >
                 
                     <div className="heading" > Need Help? </div>
                     <br/>
@@ -26,6 +29,7 @@ const Footer = () => {
                       <a href="https://support.traderjoexyz.com/en/">
                         support centre
                       </a>{" "}
+                      <br/>
                       <span>  for troubleshooting  </span>
                       
                     </li>
@@ -36,6 +40,7 @@ const Footer = () => {
                       <a href="https://support.traderjoexyz.com/en/">
                         offical Discord
                       </a>{"  "}
+                      <br/>
                       <span> for dedicated support </span>
                       
                     </li>
@@ -83,9 +88,13 @@ const Footer = () => {
                       </div>
                     </li>
                   </ul>
+
+
+                  <br/>  <br/>  <br/>
+
                 </div>
 
-<br/>  <br/>  <br/>
+
 
                  {/* <ul >
                     <li className="list-inline-item">
@@ -101,7 +110,9 @@ const Footer = () => {
 
 
 
-<div style={{display:'flex' , position:'absolute' , left:'700px'}}>
+<div className="foot-2" >
+
+{/* style={{display:'flex' , position:'absolute' , left:'700px'}} */}
    <div>
                   <div className="heading" > JOE Token </div>
 
@@ -138,7 +149,8 @@ const Footer = () => {
 
 
 
-  <div style={{display:'flex' , position:'absolute' , right:'800px'}}>  
+  <div className="foot-3" >  
+  {/* style={{display:'flex' , position:'absolute' , right:'800px'}} */}
 
                     <div>
                      <div className="heading" > Exchanges </div>
@@ -167,7 +179,8 @@ const Footer = () => {
 
 
 
-  <div style={{display:'flex' , position:'absolute' , right:'300px'}}>
+  <div className="foot-4" >
+  {/* style={{display:'flex' , position:'absolute' , right:'300px'}} */}
                  <div  >
                   <address>
                     <div className="heading" >  Buisness </div>
@@ -188,7 +201,7 @@ const Footer = () => {
 
               </div>
               </div>          
-              </div>
+              
    
     </footer>
   );

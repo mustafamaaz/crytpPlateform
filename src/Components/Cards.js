@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import { Input } from '@mui/material';
 import Dropdown from 'react-bootstrap/Dropdown';
+import { Link } from 'react-router-dom';
 
 
 const App = () => {
@@ -11,12 +12,13 @@ const App = () => {
         <div className='container-fluid' >
 
 
-            <div style={{ display: 'flex' }}>
-                <a style={{ position: 'absolute', right: '950px' }} className="btn   mx-1 fs-5 custom-btn-2 " to="/createuser">Swap</a>
-
+            <div className='swapbtn' >
+                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/swap">Swap</Link>
+                {/* style={{ position: 'absolute', right: '950px' }} */}
                 &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
 
-                <a style={{ position: 'absolute', right: '830px' }} className="btn   mx-1 fs-5 custom-btn-2 " to="/createuser">place</a>
+                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/place">Place</Link>
+                {/* style={{ position: 'absolute', right: '830px' }} */}
             </div>
 
             <br />  <br />
@@ -44,7 +46,7 @@ const App = () => {
 
                             <Dropdown>
                                 <Dropdown.Toggle style={{ position: 'absolute', right: '100px' }} className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
-                                    coin
+                                    XRP
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
                                     <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
@@ -67,7 +69,7 @@ const App = () => {
 
                             <Dropdown>
                                 <Dropdown.Toggle style={{ position: 'absolute', right: '100px' }} className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
-                                    Token
+                                    ETH
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
                                     <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
