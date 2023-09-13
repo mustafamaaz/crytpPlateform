@@ -1,5 +1,5 @@
 import React from "react";
-import "./stackfront.css";
+import "../Components/stackfront.css";
 
 export default function Stackfront() {
   return (
@@ -10,10 +10,15 @@ export default function Stackfront() {
         </div>
         <div className="liquid">Stake your JOE tokens and earn more.</div>
       </div>
-      <div className="button-container">
-        <div className="outer-outline">
-          <button className="but-1">USD</button>
-          <button className="but-1">JOE</button>
+      <div
+        className="button-container"
+        style={{ position: "relative", top: "-60px" }}
+      >
+        <div style={{ position: "relative", right: "-400px" }}>
+          <div className="outer-outline">
+            <button className="but-1">USD</button>
+            <button className="but-1">JOE</button>
+          </div>
         </div>
       </div>
       <div className="data">
@@ -25,15 +30,21 @@ export default function Stackfront() {
         </div>
       </div>
       <div className="button-container">
-        <div className="outer-outline">
-          <button className="but-1">7D</button>
-          <button className="but-1">30D</button>
-          <button className="but-1">90D</button>
-          <button className="but-1">180D</button>
+        <div style={{ position: "relative", right: "-400px", top: "50px" }}>
+          <div className="outer-outline">
+            <button className="but-1">7D</button>
+            <button className="but-1">30D</button>
+            <button className="but-1">90D</button>
+            <button className="but-1">180D</button>
+          </div>
         </div>
       </div>
       <div className="ch">
-        <img src="kk.png" alt="Graph"></img>
+        <img
+          src="kk.png"
+          alt="Graph"
+          style={{ position: "relative", right: "-150px" }}
+        ></img>
       </div>
 
       <div className="ty">
@@ -50,7 +61,9 @@ export default function Stackfront() {
             </div>
           </div>
           <div className="text2">
-            <a href="/">Earn USD Stablecoins</a>
+            <div style={{ position: "relative", right: "-530px", top: "-6px" }}>
+              <a href="/">Earn USD Stablecoins</a>
+            </div>
           </div>
           <div className="gg">
             <div></div>
@@ -67,7 +80,7 @@ export default function Stackfront() {
 
           <div
             className="is fs-4"
-            style={{ position: "relative", bottom: "-15px" }}
+            style={{ position: "relative", bottom: "-15px", right: "-25px" }}
           >
             <p>$9,416,512</p>
           </div>
@@ -100,23 +113,27 @@ export default function Stackfront() {
           </div>
 
           <br />
-
-          <div style={{ color: "#c9ccd1" }}>
-            <p>
-              {" "}
-              <i>APR (30D) </i>
-            </p>
+          <div className="row2">
+            <div
+              style={{ color: "#c9ccd1", position: "relative", right: "-25px" }}
+            >
+              <p>
+                {" "}
+                <i>APR (30D) </i>
+              </p>
+            </div>
+            <div className="is fs-4">
+              <div style={{ position: "relative", right: "-25px" }}>
+                <p>1.71%</p>
+              </div>
+            </div>
           </div>
-          <div className="is fs-4">
-            <p>1.71%</p>
-          </div>
-
           <div
             style={{
               color: "#c9ccd1",
               position: "absolute",
               left: "450px",
-              top: "170px",
+              top: "150px",
               display: "flex",
             }}
           >
@@ -131,7 +148,7 @@ export default function Stackfront() {
             style={{
               position: "absolute",
               left: "470px",
-              top: "212px",
+              top: "195px",
               display: "flex",
             }}
           >
