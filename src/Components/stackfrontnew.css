@@ -1,0 +1,471 @@
+/* Default styles */
+
+.button-container {
+  float: right;
+  margin-right: -5%;
+  position: relative;
+  top: 10px;
+}
+
+.ppp {
+  margin-left: 10%;
+}
+
+.but-1 {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.outer-outline {
+  outline: 2px solid black;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.data {
+  margin-left: 10%;
+  position: relative;
+  top: 20px;
+}
+
+.sb {
+  position: relative;
+  top: -15px;
+}
+
+.but-1:hover {
+  background-color: lightgrey;
+}
+
+.ch {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.ty {
+  margin: 10%;
+}
+
+.txt {
+  margin-left: 7%;
+  margin-top: -4%;
+}
+
+.mm {
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+.gg {
+  margin-top: 5px;
+  margin-left: 3%;
+}
+
+.is {
+  margin-top: -2.5%;
+}
+
+.liquid,
+.blah {
+  color: lightgray;
+}
+
+.text2 {
+  position: relative;
+  left: 500px;
+  top: -50px;
+}
+
+/* Media query for screens up to 600px wide */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* Update the styles here for screens up to 600px wide */
+  .button-container {
+    float: none;
+    margin-top: 6%;
+    margin-right: -110%;
+    position: relative;
+  }
+
+  .ppp {
+    margin-left: 5%;
+    position: relative;
+    top: 30px;
+  }
+
+  .but-1 {
+    width: 150px;
+    height: 150px;
+    size: 20px;
+  }
+
+  .outer-outline {
+    outline: none;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  .data {
+    margin-left: 5%;
+    top: -20px;
+  }
+
+  .row2 {
+    position: relative;
+    right: -70px;
+  }
+
+  .io {
+    position: relative;
+    left: -195px;
+    top: -230px;
+  }
+
+  .sb {
+    top: -10px;
+    font-size: 32px;
+    font-weight: 300;
+  }
+
+  .but-1:hover {
+    background-color: lightgray;
+  }
+
+  .ch {
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  .ty {
+    margin-left: -20%;
+  }
+
+  .txt {
+    margin-left: 5%;
+    margin-top: -2%;
+    position: relative;
+    right: -15px;
+    top: -15px;
+  }
+
+  .mm {
+    margin-left: 1%;
+    margin-top: 2%;
+    position: relative;
+    right: -65px;
+  }
+
+  .gg {
+    margin-top: -25px;
+    margin-left: 2%;
+  }
+
+  .baba {
+    position: relative;
+    top: -95px;
+    font-size: 15px;
+    right: -60px;
+  }
+  .sho {
+    position: relative;
+    left: -190px;
+    top: -133px;
+  }
+  .yoyo {
+    position: relative;
+    right: -50px;
+    top: -10px;
+  }
+
+  .jh {
+    position: relative;
+    top: -143px;
+    left: -175px;
+  }
+
+  .chu {
+    position: relative;
+    top: -5px;
+  }
+
+  .kl {
+    position: relative;
+    right: -30px;
+    top: -10px;
+  }
+
+  .is {
+    margin-top: -1.5%;
+  }
+
+  .blah {
+    color: lightgray;
+    font-size: 15px;
+  }
+
+  a {
+    position: relative;
+    right: -250px;
+    top: -15px;
+  }
+  .text2 {
+    width: 90px;
+  }
+  .liquid {
+    position: relative;
+    left: 100000%;
+  }
+  .yu {
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  .dd {
+    position: relative;
+    right: -10000px;
+  }
+}
+
+/* Media query for screens up to 1024px wide */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Update the styles here for screens between 601px and 1024px wide */
+  .button-container {
+    float: right;
+    margin-right: -5%;
+    position: relative;
+    top: 10px;
+  }
+
+  .ppp {
+    margin-left: 8%;
+  }
+
+  .but-1 {
+    width: 45px;
+    height: 45px;
+  }
+
+  .outer-outline {
+    outline: 2px solid black;
+    display: inline-block;
+    border-radius: 20px;
+  }
+
+  .data {
+    margin-left: 9%;
+    position: relative;
+    top: 15px;
+  }
+
+  .sb {
+    position: relative;
+    top: -12px;
+  }
+
+  .but-1:hover {
+    background-color: lightgrey;
+  }
+
+  .ch {
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+
+  .ty {
+    margin: 8%;
+  }
+
+  .txt {
+    margin-left: 6%;
+    margin-top: -3%;
+  }
+
+  .mm {
+    margin-left: 2%;
+    margin-top: 3%;
+  }
+
+  .gg {
+    margin-top: 5px;
+    margin-left: 3%;
+  }
+
+  .is {
+    margin-top: -2%;
+  }
+
+  .liquid,
+  .blah {
+    color: lightgray;
+  }
+
+  .text2 {
+    position: relative;
+    left: 150px;
+    top: -30px;
+  }
+}
+
+/* Media query for screens larger than1024px wide */
+@media screen and (min-width: 1500px) and (max-width: 1800px) {
+  /* Update the styles here for screens larger than 1024px wide */
+  .button-container {
+    float: right;
+    margin-right: -5%;
+    position: relative;
+    top: 10px;
+    left: -700px;
+  }
+
+  .ppp {
+    margin-left: 70px;
+  }
+
+  .but-1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .outer-outline {
+    outline: 2px solid black;
+    display: inline-block;
+    border-radius: 20px;
+  }
+
+  .data {
+    margin-left: 4%;
+    position: relative;
+    top: 20px;
+  }
+
+  .sb {
+    position: relative;
+    top: -15px;
+  }
+
+  .but-1:hover {
+    background-color: lightgrey;
+  }
+
+  .ch {
+    margin-left: -10%;
+    margin-top: 5%;
+  }
+
+  .ty {
+    margin-left: 4%;
+    margin-top: 7%;
+  }
+
+  .txt {
+    margin-left: 7%;
+    margin-top: -4%;
+  }
+
+  .mm {
+    margin-left: 2%;
+    margin-top: 3%;
+  }
+
+  .gg {
+    margin-top: 5px;
+    margin-left: 3%;
+  }
+
+  .is {
+    margin-top: -2.5%;
+  }
+
+  .liquid,
+  .blah {
+    color: lightgray;
+  }
+
+  .text2 {
+    position: relative;
+    left: 200px;
+    top: -50px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1050px) {
+  /* Update the styles here for screens larger than 1024px wide */
+  .button-container {
+    float: right;
+    margin-right: -30%;
+    position: relative;
+    top: 10px;
+  }
+
+  .ppp {
+    margin-left: 40px;
+  }
+
+  .but-1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .outer-outline {
+    outline: 2px solid black;
+    display: inline-block;
+    border-radius: 20px;
+  }
+
+  .data {
+    margin-left: 4%;
+    position: relative;
+    top: 20px;
+  }
+
+  .sb {
+    position: relative;
+    top: -15px;
+  }
+
+  .but-1:hover {
+    background-color: lightgrey;
+  }
+
+  .ch {
+    margin-left: -15%;
+    margin-top: 5%;
+  }
+
+  .ty {
+    margin-left: 4%;
+    margin-top: 7%;
+  }
+
+  .txt {
+    margin-left: 7%;
+    margin-top: -4%;
+  }
+
+  .mm {
+    margin-left: 2%;
+    margin-top: 3%;
+  }
+
+  .gg {
+    margin-top: 5px;
+    margin-left: 3%;
+  }
+
+  .is {
+    margin-top: -2.5%;
+  }
+
+  .liquid,
+  .blah {
+    color: lightgray;
+  }
+
+  .text2 {
+    position: relative;
+    left: 200px;
+    top: -50px;
+  }
+}

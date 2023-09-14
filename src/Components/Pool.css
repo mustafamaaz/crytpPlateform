@@ -29,7 +29,7 @@
 b {
   font-size: 27px;
 }
-.button-container {
+/* .button-container {
   display: flex;
   justify-content: center;
   padding-right: 400px;
@@ -38,7 +38,7 @@ b {
   position: relative;
   top: -125px;
   right: 310px;
-}
+} */
 
 .button-containers {
   display: flex;
