@@ -23,13 +23,18 @@ export default function Stake() {
     return (
 
         <div>
-            <Navbar />
-
+         
+<div className='footerbackgroundcolor'>
+<Navbar/>
+</div>
 
 
             <br></br>
 
+<div className='changebackgroundcolor'>
 <Poolfont/>
+</div>
+
 
 <br></br>
 

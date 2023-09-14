@@ -1,209 +1,202 @@
 import React from "react";
-import "./footer.css";
+// import "./footer.css";
+import "./footernew.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-
-    
-    <footer className="small bg-light fs-5">
-      <div  className="footercolor">
-    
-
-    <div className="footer-res" >
-        
-
-          
-            <div className="foot-1"  >
-
-            {/* style={{display:'flex' , position:'absolute' , left:'100px'}} */}
-
-                <div >
-                
-                    <div className="heading" > Need Help? </div>
-                    <br/>
-                  
-                  <ul className="list-unstyled">
-                    <li>
-                      <span>  Visit our {" "}  </span>
-                     
-                      <a href="https://support.traderjoexyz.com/en/">
-                        support centre
-                      </a>{" "}
-                      <br/>
-                      <span>  for troubleshooting  </span>
-                      
-                    </li>
-                    <br/>
-                    <li>
-                    <span>  Join our{" "} </span>
-                      
-                      <a href="https://support.traderjoexyz.com/en/">
-                        offical Discord
-                      </a>{"  "}
-                      <br/>
-                      <span> for dedicated support </span>
-                      
-                    </li>
-
-                    <br/>
-
-
-                    <li>
-                      <div className="icon-row mx-3">
-                        <span className="icon small-icon">
-                          <img
-                            src="./discord.png"
-                            alt=""
-                            style={{ width: "40px", height: "40px" }}
-                          />
-                        </span>
-                        <span className="icon small-icon">
-                          <img
-                            src="./twt.png"
-                            alt=""
-                            style={{ width: "40px", height: "40px" }}
-                          />
-                        </span>
-                        <span className="icon small-icon">
-                          <img
-                            src="./bookmark.png"
-                            alt=""
-                            style={{ width: "40px", height: "40px" }}
-                          />
-                        </span>
-                        <span className="icon small-icon">
-                          <img
-                            src="./ss.png"
-                            alt=""
-                            style={{ width: "40px", height: "40px" }}
-                          />
-                        </span>
-                        <span className="icon small-icon">
-                          <img
-                            src="./github-sign.png"
-                            alt=""
-                            style={{ width: "37px", height: "37px" }}
-                          />
-                        </span>
-                      </div>
-                    </li>
-                  </ul>
-
-
-                  <br/>  <br/>  <br/>
-
-                </div>
+<div>
 
 
 
-                 {/* <ul >
-                    <li className="list-inline-item">
-                      &copy; 2022 Joemart Ltd
-                    </li>
-                    <li className="list-inline-item">All rights reserved.</li>
-                    <li className="list-inline-item">
-                      <a href="#">Terms of use and privacy policy</a>
-                    </li>
-                  </ul> */}
+
+
+
+
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Need Help?</h4>
+  	 			<ul>
+
+					<li>
+						<span>  Visit our {" "}  </span>
+					   
+						<Link href="https://support.traderjoexyz.com/en/">
+						  support centre
+						</Link>{" "}
+						<br/>
+						<span>for troubleshooting</span>
+						
+					  </li>
+
+					  <li>
+						<span>  Join our{" "} </span>
+						  
+						  <Link href="https://support.traderjoexyz.com/en/">
+							offical Discord
+						  </Link>{"  "}
+						  <br/>
+						  <span> for dedicated support </span>
+						  
+						</li>
+
+						<li>
+							<div className="icon-row mx-3">
+							  <span className="icon small-icon">
+								<img
+								  src="./discord.png"
+								  alt=""
+								  style={{ width: "40px", height: "40px" }}
+								/>
+							  </span>
+							  <span className="icon small-icon">
+								<img
+								  src="./twt.png"
+								  alt=""
+								  style={{ width: "40px", height: "40px" }}
+								/>
+							  </span>
+							  <span className="icon small-icon">
+								<img
+								  src="./bookmark.png"
+								  alt=""
+								  style={{ width: "40px", height: "40px" }}
+								/>
+							  </span>
+							  <span className="icon small-icon">
+								<img
+								  src="./ss.png"
+								  alt=""
+								  style={{ width: "40px", height: "40px" }}
+								/>
+							  </span>
+							  <span className="icon small-icon">
+								<img
+								  src="./github-sign.png"
+								  alt=""
+								  style={{ width: "37px", height: "37px" }}
+								/>
+							  </span>
+							</div>
+						  </li>
+
+  	 	 {/* <li><Link href="#">about us</Link></li>
+  	 				<li><Link href="#">our services</Link></li>
+  	 				<li><Link href="#">privacy policy</Link></li>
+  	 				<li><Link href="#">affiliate program</Link></li>  */}
+  	 		
+        	</ul>
+
+  	 		</div>
+
+
+  	 		<div class="footer-col">
+  	 			<h4>JOE Token </h4>
+  	 			<ul>
+
+
+					<li>
+						<Link href="#">Coingecko</Link>
+					  </li>
+					  <li>
+						<Link href="#">CoinMarketCap</Link>
+					  </li>
+					  <li>
+						<br></br>{" "}
+					  </li>
+					  <li>
+  
+					  
+            <h4>Analysis</h4>
+					  <br/>
+					  </li>
+					  <li>
+						<Link href="#">TokenTerminal</Link>
+					  </li>
+					  <li>
+						<Link href="#">Defi Llama</Link>
+					  </li>
+					  <li>
+						<Link href="#">Gecko Terminal</Link>
+					  </li>
+
+
+
+{/* 
+  	 	 <li><Link href="#">FAQ</Link></li>
+  	 				<li><Link href="#">shipping</Link></li>
+  	 				<li><Link href="#">returns</Link></li>
+  	 				<li><Link href="#">order status</Link></li>
+  	 				<li><Link href="#">payment options</Link></li>  */}
+
+
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Exchanges</h4>
+  	 			<ul>
+
+
+					<li>
+						<Link href="#">Binance</Link>
+					  </li>
+					  <li>
+						<Link href="#">Crypto.com</Link>
+					  </li>
+					  <li>
+						<Link href="#">Gate.io</Link>
+					  </li>
+					  <li>
+						<Link href="#">MEXC</Link>
+					  </li>
+					  <li>
+						<Link href="#">OKX</Link>
+					  </li> 
+  	 				{/* <li><Link href="#">watch</Link></li>
+  	 				<li><Link href="#">bag</Link></li>
+  	 				<li><Link href="#">shoes</Link></li>
+  	 				<li><Link href="#">dress</Link></li>  */}
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4> Buisness</h4>
+				<ul>
+
+					
+
+						<li>
+							<Link href="#">Apply for Patnership</Link>
+						  </li>
+						  <li>
+							<Link href="#">Token Listing</Link>
+						  </li>
+						  <li>
+							<Link href="#">NFT Listing</Link>
+						  </li>
+						  <li>
+							<Link href="#">Contact Us</Link>
+						  </li>
+
+				</ul>
+
+  	 {/* <div class="social-links">
+  	 				<Link href="#"><i class="fab fa-facebook-f"></i></Link>
+  	 				<Link href="#"><i class="fab fa-twitter"></i></Link>
+  	 				<Link href="#"><i class="fab fa-instagram"></i></Link>
+  	 				<Link href="#"><i class="fab fa-linkedin-in"></i></Link>
+  	 			</div>  */}
+
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+
 </div>
 
-
-
-
-<div className="foot-2" >
-
-{/* style={{display:'flex' , position:'absolute' , left:'700px'}} */}
-   <div>
-                  <div className="heading" > JOE Token </div>
-
-                  <br/>
-                  
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#">Coingecko</a>
-                    </li>
-                    <li>
-                      <a href="#">CoinMarketCap</a>
-                    </li>
-                    <li>
-                      <br></br>{" "}
-                    </li>
-                    <li>
-
-                    <div className="heading" > Analysis </div>
-
-                    <br/>
-                    </li>
-                    <li>
-                      <a href="#">TokenTerminal</a>
-                    </li>
-                    <li>
-                      <a href="#">Defi Llama</a>
-                    </li>
-                    <li>
-                      <a href="#">Gecko Terminal</a>
-                    </li>
-                  </ul>
-                </div>
-  </div>
-
-
-
-  <div className="foot-3" >  
-  {/* style={{display:'flex' , position:'absolute' , right:'800px'}} */}
-
-                    <div>
-                     <div className="heading" > Exchanges </div>
-
-                     <br/>
-
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#">Binance</a>
-                    </li>
-                    <li>
-                      <a href="#">Crypto.com</a>
-                    </li>
-                    <li>
-                      <a href="#">Gate.io</a>
-                    </li>
-                    <li>
-                      <a href="#">MEXC</a>
-                    </li>
-                    <li>
-                      <a href="#">OKX</a>
-                    </li>
-                  </ul>
-                </div>
-  </div>
-
-
-
-  <div className="foot-4" >
-  {/* style={{display:'flex' , position:'absolute' , right:'300px'}} */}
-                 <div  >
-                  <address>
-                    <div className="heading" >  Buisness </div>
-
-                    <br/>
-                    <a href="#">Apply for Patnership</a>
-                    <br />
-                    <a href="#">Token Listing</a>
-                    <br />
-                    <a href="#">NFT Listing</a>
-                    <br />
-                    <a href="#">Contact Us</a>
-                  </address>
-                </div>
-              </div>   
-
-
-
-              </div>
-              </div>          
-              
-   
-    </footer>
+    
   );
 };
 

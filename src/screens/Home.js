@@ -5,9 +5,9 @@ import Footer from '../Components/Footer'
 
 export default function Home() {
   return (
-    <div>
-      <div> <Navbar></Navbar></div>
-      <div> <Cards></Cards></div>
+    <div  >
+      <div className='footerbackgroundcolor'> <Navbar></Navbar></div>
+      <div  className='changebackgroundcolor'>  <Cards></Cards></div>
 
 
       <div>  <Footer></Footer>  </div>

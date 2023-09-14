@@ -17,7 +17,7 @@ const App = () => {
                 {/* style={{ position: 'absolute', right: '950px' }} */}
                 &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
 
-                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/place">Place</Link>
+                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/place">Place Order</Link>
                 {/* style={{ position: 'absolute', right: '830px' }} */}
             </div>
 
@@ -69,7 +69,7 @@ const App = () => {
 
                             <Dropdown>
                                 <Dropdown.Toggle style={{ position: 'absolute', right: '100px' }} className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
-                                    ETH
+                                    USD
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
                                     <Dropdown.Item href="#/action-1">Action</Dropdown.Item>

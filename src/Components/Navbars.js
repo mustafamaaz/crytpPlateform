@@ -48,7 +48,7 @@ const [cartView,setCartView] = useState(false);
 
             &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
 
-            <div className='btncenter'>
+            <div className='btncenter'  >
 
               <div >
               <Link className="btn   mx-1 fs-4 changebutton " to = "/"  >
@@ -59,19 +59,23 @@ const [cartView,setCartView] = useState(false);
               &nbsp;&nbsp;  &nbsp;&nbsp;
              
               <Link className="btn   mx-1 fs-4  changebutton "  to= "/pool" >
-                 Stake
+                 Pool
               </Link>
              
             
               &nbsp;&nbsp;  &nbsp;&nbsp;
               
               <Link className="btn   mx-1 fs-4 changebutton "  to= "/stake" >
-              Pool 
+              portfolio
               </Link>
 
               <svg style={{ paddingRight:'30px' ,paddingLeft:'50px', width:'auto'}} className='  btn   mx-1 fs-4   mx-1  dotbtn  ' xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
                   <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
                 </svg>
+
+
+
+
 
 
               </div>
@@ -80,11 +84,21 @@ const [cartView,setCartView] = useState(false);
               {/* &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; */}
 
     
+
+             
+
                
 
 
             </div>
 
+
+
+
+
+
+          
+         
 
 
             <div>
@@ -102,15 +116,19 @@ const [cartView,setCartView] = useState(false);
 
   &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
 
-  <select style={{ position: 'absolute', right: '300px', top: '50px' }} className='m-2 h-20 custom-btn-1 fs-5 rounded' aria-label='dropdown' >
+  <select style={{ position: 'absolute', right: '300px', top: '50px' }} className='m-2 h-20 custom-btn-1 fs-5 ' aria-label='dropdown' >
     {Array.from(Array(2), (e, i) => {
       return (
-        <option>Arbitrium </option>
+        <option>XRP Ledger</option>
       )
     })}
   </select>
 </div>
 </div>
+
+
+
+
 
 
 

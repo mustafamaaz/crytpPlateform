@@ -1,4 +1,11 @@
 /* styles.css */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 
 h1 {
   font-size: 24px;
@@ -14,13 +21,16 @@ h2 {
   /* Add 1px spacing between icons */
   margin-top: 100px;
 }
-
+/* 
 .footercolor {
-  background: #e1ccbb !important;
-  height: 440px;
 
-  width: auto;
-}
+  background: #ffffff ;
+  padding: 70px 0;
+
+  
+  
+  
+} */
 
 .heading {
   color: black;
@@ -30,6 +40,16 @@ h2 {
 
 span {
   color: black;
+}
+
+.footcont {
+
+  background: #e1ccbb ;
+ 
+  margin: auto;
+  z-index: 1000px;
+  max-width: 2000px;
+
 }
 
 
@@ -208,10 +228,11 @@ span {
 
 
   .footercolor {
+    width: auto;
     background: #e1ccbb !important;
     height: 600px;
 
-    width: auto;
+    
   }
 
   .small-icon {
@@ -274,7 +295,8 @@ span {
   .footercolor {
     background: #e1ccbb !important;
     height: 650px;
-    width: auto;
+    width: 510px;
+
   }
 
   .small-icon {
@@ -291,7 +313,7 @@ span {
 
 
 
-@media (max-width: 479px) {
+@media (max-width: 321px) and  (min-width: 320px)  {
 
 
 

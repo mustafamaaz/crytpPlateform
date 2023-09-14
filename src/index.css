@@ -5,6 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+ 
+  background: gold;
+}
+
+
+.changebackgroundcolor{
+  background-color: rgb(36, 57, 152);
+}
+
+
+
+.footerbackgroundcolor{
+
+  background-color: rgb(239, 231, 231);
 }
 
 code {

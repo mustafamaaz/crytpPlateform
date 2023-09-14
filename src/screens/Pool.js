@@ -9,9 +9,15 @@ export default function Pool() {
   return (
     <div>
 
-        <Navbar/>
+<div className='footerbackgroundcolor'>
+<Navbar/>
+</div>
+        
 
-     <Stackfront/>
+<div className='changebackgroundcolor'>
+<Stackfront/> 
+</div>
+   
 
         <Footer/>
 
