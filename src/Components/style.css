@@ -1,6 +1,11 @@
 .nav-color {
     background-color: black;
 }
+
+.cardheightvh{
+    height: 100vh;
+    overflow-y: scroll;
+}
 .body {
     background-color: rgb(249, 249, 249) !important;
 }
@@ -86,8 +91,9 @@ color: gray;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-left: 230px;
+    margin-left: auto;
     padding-right: 350px;
+    line-height: 0px;
 }
 
 .rightnavbtn {
@@ -110,39 +116,304 @@ color: gray;
 
 }
 
+.itemflex{
+    position: absolute;
+    right: 40px;
+    display: flex;
+    line-height: 0px;
+    margin-left: auto;
+}
+
 .adjustleftbtn {
     display: flexbox;
 
 }
+
+.beachkybtn{
+    /* margin-right: 500px; */
+    padding-right: 350px;
+}
+
+
+
+
+
+  
+.bottom-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+display: none;
+  }
+
+
+
+.botomsicons{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1670px){
+ 
+    .itemflex{
+        position: absolute;
+        right: 50px;
+        /* margin-left: 0%; */
+        
+        /* margin-right: auto; */
+        
+    }
+
+.beachkybtn{
+    padding-right: 190px;
+}
+    .logoname{
+        float: left;
+        margin-left: 0%;
+    }
+
+
+.bottom-bar {
+display: none;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1560px){
+    .navsyt{
+        /* flex-direction: column; */
+    }
+   
+
+.beachkybtn{
+    /* margin-right: 200px; */
+    padding-right: 110px;
+}
+    .logoname{
+        float: left;
+        margin-left: 0%;
+    }
+}
+
+
+@media screen and (max-width: 1299px){
+  
+   
+    .logoname{
+        float: left;
+        margin-left: 0%;
+       
+    }
+
+.beachkybtn{
+    /* margin-right: 200px; */
+    padding-right: 40px;
+}
+}
+
+ 
+.beachkybtn{
+    margin-right: 100px;
+}
+
+
+@media screen and (max-width: 1215px){
+  
+    .logoname{
+        position: absolute;
+        left: -100%;
+      
+    }
+
+ 
+.beachkybtn{
+    padding-right:100px;
+}
+}
+
+
+@media screen and (max-width: 1093px){
+  
+.hiddennav{
+   display: none;
+}
+
+.cardheightvh{
+    height: 100vh;
+    width: auto;
+    overflow-y: scroll;
+}
+
+
+.bottom-bar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #d6cece;
+    color: #181818;
+    padding: 10px;
+    
+
+}
+}
+
+
+
+
+@media screen and (max-width: 740px){
+   
+
+.botomsicons{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+    }
+    
+
+@media screen and (max-width: 535px){
+   
+
+    .botomsicons{
+        padding-left: 65px;
+        /* padding-right: 65px; */
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+        }
+
+
+
+/* -------------bottom bar --------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------------- cards ------------- */
+
+
+
+.wallettradebtn{
+
+    /* display: flex; */
+    /* align-items: stretch; */
+    /* justify-content: center; */
+ } 
+
+.cardinnerinputandbtn
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
 
 .carts {
    
     border-radius: 30px;
+
+    width: 50%;
+    display: grid;
+    padding: 60px;
+    
 }
 .cart_shadow {
     border-radius: 30px  30px 30px 30px;
     box-shadow: 5px 5px 3px 2px white;
     outline: rgb(240, 240, 243);
     color: rgb(169, 163, 163);
+    overflow: hidden;
 
 }
 
-.connect-btn {
+
+
+.connectwalletbtnout{
+
     border-radius: 30px;
     box-shadow: 1px 1px 1px 2px white;
     outline: rgb(240, 240, 243);
-    height: 50px;
+    border: 2px solid rgb(234, 234, 242);
     background-color: rgb(29, 65, 165); 
-    color: gray; 
-    border: 2px solid rgb(234, 234, 242); 
-    border-radius: 10px; 
-    padding: 10px 20px; 
+}
+
+
+
+.connect-btn {
+
+
+    display: flex;
+    justify-content: center;
+     
+
+  background-color: rgb(52, 44, 218);
+  color: rgb(145, 138, 138);
+  border: 3px solid rgb(87, 87, 87);
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+margin-left: 14%;
+
+
 }
 
 .connect-btn:hover {
-    background-color: rgb(14, 42, 119); 
-    color: rgb(220, 205, 205); 
+    background-color: rgb(22, 39, 86); 
+    color: rgb(7, 6, 6); 
 
 }
 
@@ -150,5 +421,71 @@ color: gray;
     display: flex;
     width: auto;
     height: 50px;
-    padding-left: 64%;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
+
+
+.homecardgrid{
+
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1170px){
+
+.homecardgrid{
+
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}    
+        }
+
+
+@media screen and (max-width: 980px){
+
+    .homecardgrid{
+    
+        margin-right: 10px;
+        margin-top: 10px;
+    }    
+
+    .carts {
+        border-radius: 30px;
+        width: 100%;
+        display: grid;
+        padding: 20px;
+    }
+            }
+
+
+
+@media screen and (max-width: 466px){
+
+.overflowbtntrade{
+    display: flex;
+    margin-right: 200%;
+    /* margin-left: 200px; */
+    /* left: 100%; */
+    /* left: 70px; */
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+}
+
+.overflowbtntradecollect  {
+    display: flex;
+    margin-right: 200%;
+    /* margin-left: 200px; */
+    /* left: 100%; */
+    /* left: 70px; */
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+            }
+

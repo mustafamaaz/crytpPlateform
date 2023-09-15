@@ -9,22 +9,15 @@ const App = () => {
     return (
 
 
-        <div className='container-fluid' style={{paddingTop:'25px'}} >
+        <div className='container-fluid cardheightvh' style={{paddingTop:'25px'}} >
 
 
-            <div className='swapbtn' >
-                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/swap">Swap</Link>
-                {/* style={{ position: 'absolute', right: '950px' }} */}
-                &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
-
-                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/place">Place Order</Link>
-                {/* style={{ position: 'absolute', right: '830px' }} */}
-            </div>
+       
 
             <br />  <br />
 
 
-            <div className='row'>
+            <div className='row  homecardgrid'>
 
 
                 <div className="col-md-6  carts" style={{ paddingRight: '15px', textAlign: 'center' }}>
@@ -34,18 +27,38 @@ const App = () => {
                 </div>
 
 
-                <div class="card  carts  cart_shadow" style={{ width: '50rem', height: '29rem' }}>
+
+<div  className='carts'  >
+
+
+
+<div className='swapbtn  overflowbtntrade ' >
+                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/swap">Swap</Link>
+                {/* style={{ position: 'absolute', right: '950px' }} */}
+                &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
+
+                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/place">Place Order</Link>
+                {/* style={{ position: 'absolute', right: '830px' }} */}
+            </div   >
+
+                <div class="card    cart_shadow" >
 
 
                     <ul class="list-group list-group-flush"  >
                         <li class="list-group-item fs-4" style={{ height: '200px' }}  >From <br></br>
+
+
+                            <Dropdown className='cardinnerinputandbtn' >
+
+
                             <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white' }} ></Input>
 
-                            &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+                            &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
 
 
-                            <Dropdown>
-                                <Dropdown.Toggle style={{ position: 'absolute', right: '100px' }} className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
+
+
+                                <Dropdown.Toggle className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
                                     XRP
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
@@ -60,15 +73,15 @@ const App = () => {
 
 
 
-                        <li class="list-group-item fs-4" style={{ height: '200px' }}  >To <br></br>
+                        <li class="list-group-item fs-4" style={{display:'grid' }}  >To <br></br>
+
+
+                            <Dropdown className='cardinnerinputandbtn'  >
+
                             <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white' }}  ></Input>
+                             &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
 
-                            &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
-
-
-
-                            <Dropdown>
-                                <Dropdown.Toggle style={{ position: 'absolute', right: '100px' }} className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
+                                <Dropdown.Toggle className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
                                     USD
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
@@ -80,13 +93,25 @@ const App = () => {
 
                             <br />   <br />
 
-                            <a style={{ width: '100%' }} className="btn  mx-1 fs-5 connect-btn " to="/createuser">Connect Wallet</a>
+
+{/* <div  style={{ width: '70%' }}  className='btn  mx-1 fs-5   connectwalletbtnout   wallettradebtn overflowbtntradecollect ' > */}
+<div >
+<div  style={{ width: '70%' }}  className='connect-btn  '  to="/createuser">Connect Wallet</div>
+</div>
+{/* </div> */}
+                           
                         </li>
 
 
 
                     </ul>
                 </div>
+
+
+                </div>
+
+
+
 
 
 

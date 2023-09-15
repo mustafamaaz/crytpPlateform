@@ -3,7 +3,7 @@ import {React, useState }  from 'react';
 // import  from 'react-router-dom'
 import { Link,useNavigate } from 'react-router-dom'
 import './style.css';
-import './navbar.css';
+
 
 import Modal from '../Model';
 import Cart from '../screens/Cart';
@@ -27,12 +27,12 @@ const [cartView,setCartView] = useState(false);
 
 
   return (
-    <header>
+  
 
-      <div>
+      <div className='hiddennav '  >
 
 
-        <nav className="navbar navbar-expand-lg navbar-light"   >
+        <nav className="navbar-expand-lg  "   >
           <div  className=" navsyt nav-color">
 
             &nbsp;&nbsp;
@@ -50,7 +50,7 @@ const [cartView,setCartView] = useState(false);
 
             <div className='btncenter'  >
 
-              <div >
+              <div className='beachkybtn' >
               <Link className="btn   mx-1 fs-4 changebutton " to = "/"  >
                 Trade
               </Link>
@@ -73,40 +73,17 @@ const [cartView,setCartView] = useState(false);
                   <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
                 </svg>
 
-
-
-
-
-
               </div>
-             
-
-              {/* &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; */}
-
-    
-
-             
-
-               
-
-
-            </div>
 
 
 
 
-
-
-          
-         
-
-
-            <div>
+              <div className='itemflex' >
 
 
 <div>
 
-  <div style={{ position: 'absolute', right: '100px', top: '59px' }} className="btn   mx-1 fs-5 custom-btn-2 " to="/connectwallet"  onClick={collectBtn}  >Connect wallet</div>
+  <div className="btn   m-2 fs-5 custom-btn-2 " to="/connectwallet"  onClick={collectBtn}  >Connect wallet</div>
 
 
   { cartView? <Modal onClose={()=> setCartView(false)}   >  <Cart/> </Modal>:null }
@@ -116,7 +93,7 @@ const [cartView,setCartView] = useState(false);
 
   &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
 
-  <select style={{ position: 'absolute', right: '300px', top: '50px' }} className='m-2 h-20 custom-btn-1 fs-5 ' aria-label='dropdown' >
+  <select  className='m-2 h-20 custom-btn-1 fs-5 ' aria-label='dropdown' >
     {Array.from(Array(2), (e, i) => {
       return (
         <option>XRP Ledger</option>
@@ -127,43 +104,7 @@ const [cartView,setCartView] = useState(false);
 </div>
 
 
-
-
-
-
-
-
-
-
-
-            {/* &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; */}
-
-            {/* <div></div> */}
-
-            {/* <div class="flex" style={{ position: 'absolute', right: '620px' }}>
-            <form  >
-
-              <input class="form-control me-2 custom-search-bar " type="search" placeholder="Search" aria-label="Search" />
-            </form>
-            </div> */}
-
-            {/* &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; */}
-
-
-
-
-
-            {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav me-auti mb-2">
-                <li className="nav-item">
-                </li>
-              </ul>
-            </div> */}
-
-
+            </div>
 
           </div>
           
@@ -172,7 +113,18 @@ const [cartView,setCartView] = useState(false);
         <br></br>  <br></br>
 
 
+
+
+
+  
+
+
+
+
+
+
+
       </div>
-    </header>
+   
   )
 }
