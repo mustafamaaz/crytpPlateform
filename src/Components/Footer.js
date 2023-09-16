@@ -1,7 +1,7 @@
 import React from "react";
 // import "./footer.css";
 import "./footernew.css";
-import { Link } from "react-router-dom";
+import { div } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,33 +16,36 @@ const Footer = () => {
 <footer class="footer">
   	 <div class="container">
   	 	<div class="row">
+
+
   	 		<div class="footer-col">
   	 			<h4>Need Help?</h4>
-  	 			<ul>
 
-					<li>
+  	 			<div className="footerinnerboxes"  >   
+{/* ul */}
+					<div className="footerineritemssyt"  >
 						<span>  Visit our {" "}  </span>
 					   
-						<Link href="https://support.traderjoexyz.com/en/">
+						<div href="https://support.traderjoexyz.com/en/">
 						  support centre
-						</Link>{" "}
+						</div>{" "}
 						<br/>
 						<span>for troubleshooting</span>
 						
-					  </li>
+					  </div>
 
-					  <li>
+					  <div className="footerineritemssyt" >
 						<span>  Join our{" "} </span>
 						  
-						  <Link href="https://support.traderjoexyz.com/en/">
+						  <div href="https://support.traderjoexyz.com/en/">
 							offical Discord
-						  </Link>{"  "}
+						  </div>{"  "}
 						  <br/>
 						  <span> for dedicated support </span>
 						  
-						</li>
+						</div>
 
-						<li>
+						<div className="footerineritemssyt" >
 							<div className="icon-row mx-3">
 							  <span className="icon small-icon">
 								<img
@@ -80,112 +83,120 @@ const Footer = () => {
 								/>
 							  </span>
 							</div>
-						  </li>
+						  </div>
 
-  	 	 {/* <li><Link href="#">about us</Link></li>
-  	 				<li><Link href="#">our services</Link></li>
-  	 				<li><Link href="#">privacy policy</Link></li>
-  	 				<li><Link href="#">affiliate program</Link></li>  */}
+  	 	 {/* <div ><div href="#">about us</div></div >
+  	 				<div ><div href="#">our services</div></div >
+  	 				<div ><div href="#">privacy policy</div></div >
+  	 				<div ><div href="#">affiliate program</div></div >  */}
   	 		
-        	</ul>
+        	</div>
+
+
 
   	 		</div>
 
 
   	 		<div class="footer-col">
   	 			<h4>JOE Token </h4>
-  	 			<ul>
+  	 			<div className="footerinnerboxes">
 
 
-					<li>
-						<Link href="#">Coingecko</Link>
-					  </li>
-					  <li>
-						<Link href="#">CoinMarketCap</Link>
-					  </li>
-					  <li>
+					<div className="footerineritemssyt" >
+						<div href="#">Coingecko</div>
+					  </div>
+					  <div className="footerineritemssyt" >
+						<div href="#">CoinMarketCap</div>
+					  </div>
+					  <div className="footerineritemssyt" >
 						<br></br>{" "}
-					  </li>
-					  <li>
+					  </div>
+
+					  <div className="footerineritemssyt" >
   
-					  
             <h4>Analysis</h4>
 					  <br/>
-					  </li>
-					  <li>
-						<Link href="#">TokenTerminal</Link>
-					  </li>
-					  <li>
-						<Link href="#">Defi Llama</Link>
-					  </li>
-					  <li>
-						<Link href="#">Gecko Terminal</Link>
-					  </li>
+					  </div>
+					  <div className="footerineritemssyt" >
+						<div href="#">TokenTerminal</div>
+					  </div>
+					  <div className="footerineritemssyt" >
+						<div href="#">Defi Llama</div>
+					  </div>
+					  <div className="footerineritemssyt" >
+						<div href="#">Gecko Terminal</div>
+					  </div>
 
 
 
 {/* 
-  	 	 <li><Link href="#">FAQ</Link></li>
-  	 				<li><Link href="#">shipping</Link></li>
-  	 				<li><Link href="#">returns</Link></li>
-  	 				<li><Link href="#">order status</Link></li>
-  	 				<li><Link href="#">payment options</Link></li>  */}
+  	 	 <div ><div href="#">FAQ</div></div >
+  	 				<div ><div href="#">shipping</div></div >
+  	 				<div ><div href="#">returns</div></div >
+  	 				<div ><div href="#">order status</div></div >
+  	 				<div ><div href="#">payment options</div></div >  */}
 
 
-  	 			</ul>
+  	 			</div>
+
+
   	 		</div>
+
+
   	 		<div class="footer-col">
   	 			<h4>Exchanges</h4>
-  	 			<ul>
+  	 			<div className="footerinnerboxes">
 
 
-					<li>
-						<Link href="#">Binance</Link>
-					  </li>
-					  <li>
-						<Link href="#">Crypto.com</Link>
-					  </li>
-					  <li>
-						<Link href="#">Gate.io</Link>
-					  </li>
-					  <li>
-						<Link href="#">MEXC</Link>
-					  </li>
-					  <li>
-						<Link href="#">OKX</Link>
-					  </li> 
-  	 				{/* <li><Link href="#">watch</Link></li>
-  	 				<li><Link href="#">bag</Link></li>
-  	 				<li><Link href="#">shoes</Link></li>
-  	 				<li><Link href="#">dress</Link></li>  */}
-  	 			</ul>
+					<div className="footerineritemssyt"  >
+						<div href="#">Binance</div>
+					  </div >
+					  <div className="footerineritemssyt" >
+						<div href="#">Crypto.com</div>
+					  </div >
+					  <div className="footerineritemssyt" >
+						<div href="#">Gate.io</div>
+					  </div >
+					  <div className="footerineritemssyt" >
+						<div href="#">MEXC</div>
+					  </div >
+					  <div className="footerineritemssyt">
+						<div href="#">OKX</div>
+					  </div > 
+  	 				{/* <div ><div href="#">watch</div></div >
+  	 				<div ><div href="#">bag</div></div >
+  	 				<div ><div href="#">shoes</div></div >
+  	 				<div ><div href="#">dress</div></div >  */}
+  	 			</div>
   	 		</div>
+
+
   	 		<div class="footer-col">
   	 			<h4> Buisness</h4>
-				<ul>
+				<div  className="footerinnerboxes">
 
 					
 
-						<li>
-							<Link href="#">Apply for Patnership</Link>
-						  </li>
-						  <li>
-							<Link href="#">Token Listing</Link>
-						  </li>
-						  <li>
-							<Link href="#">NFT Listing</Link>
-						  </li>
-						  <li>
-							<Link href="#">Contact Us</Link>
-						  </li>
+						<div className="footerineritemssyt" >
+							<div href="#">Apply for Patnership</div>
+						  </div >
+						  <div className="footerineritemssyt" >
+							<div href="#">Token Listing</div>
+						  </div >
+						  <div className="footerineritemssyt">
+							<div href="#">NFT Listing</div>
+						  </div >
+						  <div className="footerineritemssyt" >
+							<div href="#">Contact Us</div>
+						  </div >
 
-				</ul>
+				</div>
 
   	 {/* <div class="social-links">
-  	 				<Link href="#"><i class="fab fa-facebook-f"></i></Link>
-  	 				<Link href="#"><i class="fab fa-twitter"></i></Link>
-  	 				<Link href="#"><i class="fab fa-instagram"></i></Link>
-  	 				<Link href="#"><i class="fab fa-linkedin-in"></i></Link>
+  	 				<div href="#"><i class="fab fa-facebook-f"></i></div>
+  	 				<div href="#"><i class="fab fa-twitter"></i></div>
+  	 				<div href="#"><i class="fab fa-instagram"></i></div>
+  	 				<div href="#"><i class="fab fa-linkedin-in"></i></div>
   	 			</div>  */}
 
   	 		</div>

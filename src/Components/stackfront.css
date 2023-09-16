@@ -7,15 +7,12 @@
   position: relative;
   top: -60px;
 
-
   margin-right: 12%;
   /* display: grid; */
   grid-row-gap: 20px;
-
 }
 
-
-.imgdecoration{
+.imgdecoration {
   padding-left: 200px;
   padding-right: 200px;
   width: 100%;
@@ -23,56 +20,42 @@
   margin-top: 20px;
 }
 
-
-
-
-@media(max-width: 1700px) and (min-width : 800px ){
-	
-.imgdecoration{
-  padding-left: 100px;
-  padding-right: 100px;
-  width: 100%;
-  height: auto;
-  margin-top: 15px;
-}
+@media (max-width: 1700px) and (min-width: 800px) {
+  .imgdecoration {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
   }
-
-@media(max-width: 799px)  and (min-width : 573px ){
- 
-.imgdecoration{
-  padding-left: 100px;
-  padding-right: 100px;
-  width: 100%;
-  height: auto;
-  margin-top: 5px;
-}
 }
 
-
-@media(max-width: 574px) and (min-width : 290px ){
-  
-.imgdecoration{
-  padding-left: 100px;
-  padding-right: 100px;
-  width: 100%;
-  height: auto;
-  margin-top: 4px;
-}
+@media (max-width: 799px) and (min-width: 573px) {
+  .imgdecoration {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 574px) and (min-width: 290px) {
+  .imgdecoration {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    height: auto;
+    margin-top: 4px;
+  }
+}
 
 .ppp {
   margin-left: 10%;
+}
+
+.secondpagemargin{
+  margin: 0 auto !important;
 }
 
 .but-1 {
@@ -91,11 +74,9 @@
 
   margin-bottom: 20px;
 
-
   flex-wrap: wrap;
-    align-content: space-around;
-    align-items: center;
-
+  align-content: space-around;
+  align-items: center;
 }
 
 .data {
@@ -122,9 +103,9 @@
 
 .ty {
   margin-top: 10%;
-    margin-left: 6%;
-    /* margin-bottom: 90px; */
-    overflow: hidden;
+  margin-left: 6%;
+  /* margin-bottom: 90px; */
+  overflow: hidden;
 }
 
 .txt {
@@ -133,10 +114,9 @@
 }
 
 .mm {
-
   margin-left: 3%;
-    margin-top: 3%;
-    margin-bottom: 3px;
+  margin-top: 3%;
+  margin-bottom: 3px;
 }
 
 .gg {
@@ -153,50 +133,45 @@
   color: lightgray;
 }
 
-.text2 {
-
-}
-
 .textstack {
   position: relative;
   left: 500px;
   top: -50px;
-
 }
 
-.cart-content-stack1{
+.cart-content-stack1 {
   display: flex;
   font-size: large;
   font-weight: lighter;
   margin-bottom: 1%;
 }
 
-.cart-content-stack2{
+.cart-content-stack2 {
   color: black;
   display: flex;
   margin-bottom: 2%;
 }
 
-.stackedbtn{
+.stackedbtn {
   margin-left: 5%;
 }
-.yourstacked{
+.yourstacked {
   margin-left: 40%;
 }
-.depositefee{
+.depositefee {
   margin-left: 50%;
 }
 
-.prices{
+.prices {
   margin-left: 7%;
   font-size: 25px;
 }
-.prices1{
+.prices1 {
   margin-left: 56%;
   font-size: 25px;
 }
 
-.cardsizing-pool{
+.cardsizing-pool {
   /* width: 50%; */
   width: 53rem;
   /* height: auto; */
@@ -206,13 +181,8 @@
   margin-bottom: 5%;
 }
 
-/* Media query for screens up to 600px wide */
-
-
-
-
 /* Media query for screens up to 1024px wide */
-@media screen and  (max-width: 1024px)and  (min-width: 701px)  {
+@media screen and (max-width: 1024px) and (min-width: 701px) {
   /* Update the styles here for screens between 601px and 1024px wide */
   .button-container {
     float: right;
@@ -220,28 +190,21 @@
     position: relative;
     top: 10px;
 
-
     position: relative;
     top: -60px;
-  
-  
+
     margin-right: 12%;
     /* display: grid; */
     grid-row-gap: 20px;
-  
   }
 
-
-.cardsizing-pool{
-  /* width: 50%; */
-  width: 40rem;
-  /* height: auto; */
-  height: 18rem;
-  border-radius: 20px;
-  
-}
-
-
+  .cardsizing-pool {
+    /* width: 50%; */
+    width: 40rem;
+    /* height: auto; */
+    height: 18rem;
+    border-radius: 20px;
+  }
 
   .but-1 {
     width: 45px;
@@ -309,9 +272,6 @@
   }
 }
 
-
-
-
 /* Media query for screens larger than1024px wide */
 @media screen and (min-width: 1048px) and (max-width: 1800px) {
   /* Update the styles here for screens larger than 1024px wide */
@@ -322,18 +282,13 @@
     top: 10px;
     /* left: -700px; */
 
-
     position: relative;
     top: -60px;
-  
-  
+
     margin-right: 12%;
     /* display: grid; */
     grid-row-gap: 20px;
-  
   }
-
-  
 
   .but-1 {
     width: 50px;
@@ -402,9 +357,8 @@
   }
 }
 
-@media screen and (max-width: 1049px)   and   (min-width: 719px)  {
+@media screen and (max-width: 1049px) and (min-width: 719px) {
   /* Update the styles here for screens larger than 1024px wide */
-
 
   .button-container {
     float: right;
@@ -414,15 +368,11 @@
 
     position: relative;
     top: -60px;
-  
-  
+
     margin-right: 12%;
     /* display: grid; */
     grid-row-gap: 20px;
-  
   }
-
-  
 
   .but-1 {
     width: 50px;
@@ -491,37 +441,24 @@
   }
 }
 
-
-
-
-
-
-
-@media screen  and (max-width: 720px ) and (min-width: 470px) {
-
-  .maaz{
-    position: relative;
-    right: 10000px;
+@media screen and (max-width: 720px) and (min-width: 470px) {
+  .think {
+    display: none;
   }
 
-
-.cardsizing-pool{
-  /* width: 50%; */
-  width: 32rem;
-  /* height: auto; */
-  height: 15rem;
-  border-radius: 20px;
-  
+  .cardsizing-pool {
+    /* width: 50%; */
+    width: 32rem;
+    /* height: auto; */
+    height: 15rem;
+    border-radius: 20px;
+  }
+  .liquid {
+    display: none;
+  }
 }
 
-
-}
-
-
-
-
-
-@media screen and   (max-width: 465px) and (min-width: 300px)  {
+@media screen and (max-width: 465px) and (min-width: 300px) {
   /* Update the styles here for screens up to 600px wide */
   .button-container {
     float: none;
@@ -529,16 +466,16 @@
     /* margin-right: -110%; */
     position: relative;
 
-
     position: relative;
     top: -60px;
-  
-  
+
     margin-right: 12%;
     /* display: grid; */
     grid-row-gap: 20px;
-  
+  }
 
+  .think {
+    display: none;
   }
 
   .ppp {
@@ -665,17 +602,223 @@
   .text2 {
     width: 90px;
   }
-  .liquid {
-    position: relative;
-    left: 100000%;
-  }
   .yu {
     font-size: xx-large;
     font-weight: 500;
   }
   .dd {
     position: relative;
-    right: -10000px;
+    display: none;
+  }
+  .liquid {
+    display: none;
   }
 }
 
+
+.container-card-trade {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 90px;
+  /* height: 900px; */
+}
+
+.content-section {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  text-align: justify;
+}
+
+.content-section .card {
+  flex: 1;
+  margin: 20px 20px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  height: 250px;
+}
+
+.content-section h2 {
+  font-size: 28px;
+  color: #1662a1;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.content-section p {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.r1 {
+  display: flex;
+  position: relative;
+  top: 10px;
+}
+.java {
+  position: relative;
+  left: 400px;
+}
+
+.chachu,
+.mus {
+  position: relative;
+  left: 225px;
+  top: -50px;
+}
+
+.total {
+  position: relative;
+  top: 8px;
+}
+
+.pso {
+  position: relative;
+  top: 40px;
+}
+
+
+@media screen and (max-width: 764px) {
+  .content-section {
+    flex-direction: column;
+  }
+  .content-section .card {
+    width: 150%;
+  }
+  .r1 {
+    position: relative;
+    right: 7px;
+  }
+  .java {
+    position: relative;
+    left: 20px;
+  }
+
+  .pso,
+  .total {
+    position: relative;
+    left: 70px;
+  }
+
+  .chachu,
+  .mus {
+    position: relative;
+    left: 110px;
+  }
+  .steel {
+    margin-top: 30px;
+  }
+  .think {
+    display: none;
+  }
+  .liquid {
+    display: none;
+  }
+  .button-container {
+    top: -30px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .content-section {
+    flex-direction: column;
+  }
+  .content-section .card {
+    width: 150%;
+  }
+
+  .button-container {
+    position: relative;
+    left: 270px;
+    top: -70px;
+  }
+
+  .think {
+    display: none;
+  }
+
+  .java {
+    position: relative;
+    left: -120px;
+    top: 15px;
+    width: 38%;
+  }
+  .r1 {
+    position: relative;
+    right: 80px;
+  }
+  .liquid {
+    display: none;
+  }
+}
+@media screen and (max-width: 299px) {
+  .container-card-trade {
+    overflow: hidden;
+  }
+  .liquid {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .pso,
+  .total {
+    display: inline;
+    position: relative;
+    left: 115px;
+    font-size: 13px;
+  }
+
+  .button-container {
+    position: relative;
+    left: 270px;
+    top: -70px;
+  }
+
+  .chachu,
+  .mus {
+    position: relative;
+    left: 40px;
+    font-size: 13px;
+  }
+
+  .r1 {
+    position: relative;
+    left: -45px;
+  }
+
+  .java {
+    position: relative;
+    left: -220px;
+  }
+
+  .think {
+    display: none;
+  }
+  .liquid {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .button-container {
+    position: relative;
+    left: 150px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .button-container {
+    left: 130px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .button-container {
+    left: 20px;
+    top: 10px;
+  }
+}

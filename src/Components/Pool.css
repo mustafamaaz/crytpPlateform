@@ -1,145 +1,209 @@
-.whole-Row {
+.Data_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_pool {
   display: flex;
 }
 
-.Left_TVL {
-  padding-right: 20px;
-  padding-top: 100px;
-  position: relative;
-  bottom: -70px;
-  position: relative;
-  right: -3px;
-}
-
-.Right_Vol {
-  position: relative;
-  text-align: center;
-  margin-top: -84px;
-  padding-left: 45px;
-  font-size: 16px;
-  left: 60px;
-}
-.Image_graph {
-  padding-top: 50px;
-  padding-left: 20px;
-  position: relative;
-  top: -60px;
-  margin-top: 100 px;
-}
-b {
-  font-size: 27px;
-}
-/* .button-container {
+.btn_pool2 {
   display: flex;
-  justify-content: center;
-  padding-right: 400px;
-  padding-bottom: 10px;
-  text-align: center;
-  position: relative;
-  top: -125px;
-  right: 310px;
-} */
+}
 
-.button-containers {
+.poolstyling-by-maaz{
+  font-size: 55px;
+  font-weight: 400;
+}
+.pool-heading-paragraph{
+  font-size: 10px;
+  font-style: italic;
+}
+
+
+
+.Row_1 {
   display: flex;
-  justify-content: center;
-  padding-right: 400px;
-  padding-bottom: 10px;
-  text-align: center;
-  position: relative;
-  top: -50px;
-  left: 1055px;
+    margin-left: 35px;
+    justify-content: space-between;
+
+
 }
 
-.but-1 {
-  border: none;
-  color: wheat;
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-  border-radius: 20px;
-  text-align: center;
-}
-
-.s1 {
-  border: none;
-  color: wheat;
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-  border-radius: 20px;
-  text-align: center;
-}
-
-.s1:hover {
-  background-color: grey;
-}
-
-.button-container2 {
-  padding-left: 1200px;
-  padding-bottom: 10px;
-  position: relative;
-  top: -120px;
-  float: right;
-  margin-right: 10%;
-}
-
-.but-2:hover {
-  background-color: rgb(221, 225, 228);
-  color: black;
-}
-.text {
-  position: relative;
-  bottom: -66px;
-}
-.p2 {
-  position: relative;
-  bottom: -8px;
-  top: -50px;
-}
-.hh {
-  position: relative;
-  top: -65px;
-}
-.Whole {
-  position: relative;
-  top: -130px;
-  margin-left: 10%;
-}
-
-.tp {
-  position: relative;
-  margin-left: 10%;
-  top: -60px;
-  /* right: -200px; */
+.right_row {
+  display: flex;
 }
 
 p {
-  color: lightslategray;
+  color: lightgray;
+  margin-bottom: 0;
 }
 
-.liquid {
-  color: lightslategray;
-}
-
-.text2 {
-  position: relative;
-  left: -30px;
-}
-
-.val2 {
-  position: relative;
-}
-
-.but-2 {
+.btn-6,
+.btn-7 {
   border: none;
   background-color: transparent;
-  width: 100px;
+  width: 50px;
   height: 50px;
   border-radius: 20px;
-  color: wheat;
+  text-align: center;
 }
-.but-2:hover {
-  background-color: rgb(221, 225, 228);
+
+.btn-6:hover,
+.btn-7:hover {
+  background-color: gray;
+}
+
+.btn_pool,
+.btn_pool2 {
+  outline: 2px solid black;
+  border-radius: 20px;
+}
+
+.pool_whole {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.ddb {
+  display: flex;
+  justify-content: end;
+}
+
+.Data_row {
+  margin-top: 60px;
+}
+
+.btn6_outline,
+.btn7_outline {
+  margin-top: 10px;
+}
+
+.graphy {
+  display: flex;
+}
+
+.pool-btn-vs-adjust-width{
+
+  height: 50px;
+  background-color: rgb(57, 11, 171); /* Set the background color */
+  color: rgb(229, 221, 221); /* Set the text color */
+  border: 2px solid rgb(234, 234, 242); /* Set the outline border color and width */
+  border-radius: 10px; /* Adjust the border radius as needed */
+  padding: 10px 20px;
+  align-items: center;
+  display: flex;
+  margin-right: 40%;
+}
+
+.but-of-uper-table-outline{
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  background-color: white;
+  padding-left: 10%;
+  padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.but-of-uper-table{
+
+  display: flex;
+  height: 50px;
+  background-color: rgb(57, 11, 171); /* Set the background color */
+  color: rgb(229, 221, 221); /* Set the text color */
+  border: 2px solid rgb(234, 234, 242); /* Set the outline border color and width */
+  border-radius: 10px; /* Adjust the border radius as needed */
+  padding: 10px 20px;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.but-of-uper-table:hover{
+  background-color: rgb(35, 105, 255);
   color: black;
+}
+
+.table-custom-size{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media (max-width: 858px) {
+  .btn-6,
+  .btn-7,
+  .btn6_outline,
+  .btn7_outline {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .Data_row {
+    display: block;
+  }
+
+
+.left_row{
+  padding-bottom: 14px;
+}
+
+
+}
+
+@media screen and (max-width: 446px ) {
+  .Row_1 {
+      margin-left: 0px;
+      align-items: center;
+      padding-bottom: 12px;
+  }
+  .pool_whole {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.left_row{
+  padding-bottom: 14px;
+}
+.wrapper_pool{
+  padding-bottom: 14px;
+}
+.Data_row{
+  padding-bottom: 20px;
+}
+.pool-btn-vs-adjust-width{
+  padding: 8px 8px;
+}
+
+
+.table-custom-size{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.but-of-uper-table-outline{
+justify-content: space-evenly;
+padding-left: 0%;
+}
+
+}
+
+
+@media screen and (max-width: 650px ) {
+
+  .table-custom-size{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 350px ) {
+
+  .table-custom-size{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }

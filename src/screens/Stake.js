@@ -15,23 +15,28 @@ import {
   } from '@mui/material';
 import Poolfont from '../Components/Poolfont';
 
-import '../Components/style.css';
+
+
+// import '../Components/style.css';
+import Bottombar from '../Components/Bottombar';
+import Logotag from '../Components/Logotag';
 
 
 
 export default function Stake() {
     return (
 
-        <div>
+        <div className='changebackgroundcolor' >
          
-<div className='footerbackgroundcolor'>
-<Navbar/>
-</div>
+<div className='footerbackgroundcolor'><Navbar/></div>
+<div><Bottombar/></div>
+<div> <Logotag/> </div>
+
 
 
             <br></br>
 
-<div className='changebackgroundcolor'>
+<div >
 <Poolfont/>
 </div>
 
@@ -39,28 +44,23 @@ export default function Stake() {
 <br></br>
 
 
+<div style={{marginTop:'20px' , marginBottom:'20px'}}>
 
-<div className='col-auto' style={{float:'left' , marginLeft:'10%'}}>
-<div className="button-container" >
+<div className="but-of-uper-table-outline" >
             <div>
-            <button className="but-2 ">Pools</button>
-            </div>
-
-            <div>
-            <button className="but-2  ">Auto Pools</button>
+            <button  className="but-of-uper-table ">Pools</button>
             </div>
 
             <div>
-            <button className="but-2  ">My Pools</button>
+            <button className="but-of-uper-table ">Auto Pools</button>
             </div>
-             
-            
-            </div>
-         
 
+            <div>
+            <button className="but-of-uper-table">My Pools</button>
+            </div>
 </div>
             
-
+</div>
 
 
 
@@ -68,7 +68,7 @@ export default function Stake() {
 
 
 
-<div  style={{ marginLeft: '10%' , marginRight:'10%'   }}>
+<div  className='table-custom-size' style={{ marginLeft: '10%' , marginRight:'10%'   }}>
             <TableContainer   >
 
             <Table sx={{ minWidth: 650 }} aria-label='simple table'>

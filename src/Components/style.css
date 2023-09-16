@@ -6,6 +6,11 @@
     height: 100vh;
     overflow-y: scroll;
 }
+
+.logotaghidden{
+    display: none;
+}
+
 .body {
     background-color: rgb(249, 249, 249) !important;
 }
@@ -159,6 +164,35 @@ display: none;
     padding-right: 120px;
     margin-top: 30px;
     align-items: center;
+
+  
+}
+
+
+
+
+@media screen and (max-width: 470px){
+   
+
+    .botomsicons{
+        margin-left: -25px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 390px){
+   
+
+    .botomsicons{
+        margin-left: -40px;
+    }
+
+
+
 }
 
 
@@ -258,6 +292,18 @@ display: none;
 .hiddennav{
    display: none;
 }
+
+.logotaghidden{
+    display: flex;
+}
+
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
 
 .cardheightvh{
     height: 100vh;
@@ -378,7 +424,7 @@ display: none;
 
 }
 
-
+/* 
 
 .connectwalletbtnout{
 
@@ -387,7 +433,7 @@ display: none;
     outline: rgb(240, 240, 243);
     border: 2px solid rgb(234, 234, 242);
     background-color: rgb(29, 65, 165); 
-}
+} */
 
 
 
@@ -396,22 +442,40 @@ display: none;
 
     display: flex;
     justify-content: center;
-     
-
-  background-color: rgb(52, 44, 218);
+    align-items: center;
+ padding: 8px;
+     /* width: 170px; */
+     /* width: 100%; */
+  
   color: rgb(145, 138, 138);
-  border: 3px solid rgb(87, 87, 87);
-  border-radius: 50px;
-  padding: 10px 20px;
-  font-size: 16px;
+ 
+  /* padding: 10px 20px; */
+  /* padding-left: 200px; */
+  /* width: ; */
+
+  font-size: 20px;
   cursor: pointer;
 
-margin-left: 14%;
+/* margin-left: 14%; */
 
 
 }
 
-.connect-btn:hover {
+
+.connect-btn-outline-page1{
+    border: 3px solid rgb(87, 87, 87);
+    border-radius: 30px;
+    background-color: rgb(52, 44, 218);
+    width: 70%;
+   height: 50px;
+   margin-left: 20%;
+
+
+
+
+}
+
+.connect-btn-outline-page1:hover {
     background-color: rgb(22, 39, 86); 
     color: rgb(7, 6, 6); 
 
@@ -424,6 +488,8 @@ margin-left: 14%;
     margin-bottom: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0;
+    margin: 30px;
 
 }
 
@@ -467,6 +533,16 @@ margin-left: 14%;
 
 @media screen and (max-width: 466px){
 
+    .cartsbotompading{
+        padding-bottom: 40px !important;
+    }
+    .carts {
+        border-radius: 30px;
+        width: 100%;
+        display: grid;
+        padding: 0px;
+    }
+
 .overflowbtntrade{
     display: flex;
     margin-right: 200%;
@@ -488,4 +564,21 @@ margin-left: 14%;
     justify-content: flex-end;
 }
             }
+
+
+            /* =========================logotag====================== */
+
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    width: 100%;
+  }
+  
+  .logo {
+    max-width: 100px; /* Adjust the logo size */
+  }
+
 

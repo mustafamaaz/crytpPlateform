@@ -3,58 +3,62 @@ import "../Components/Pool.css";
 
 export default function Poolfont() {
   return (
-    <div>
-      <div className="tp">
-        <div className="fs-1">Pool</div>
-        <div className="liquid">provide liquidity and earn fees.</div>
+
+
+    <div className="pool_whole">
+
+
+
+      <div className="Row_1">
+
+<div>
+        <div className="poolstyling-by-maaz">Pool</div>
+            
+        <div className="pool-heading-paragraph" >Provide liquidity and earn fees.</div>
+       
+        </div>
+
+
+  <select  className='m-2 h-20 pool-btn-vs-adjust-width fs-5 ' aria-label='dropdown' >
+    {Array.from(Array(2), (e, i) => {
+      return (
+        <option>V2 Pools</option>
+      )
+    })}
+  </select>
       </div>
-      <div className="Whole">
-        <div className="Left_TVL">
-          <div className="p2">
-            <p>TVL(Total Value Locked)</p>
-          </div>
-          <h2>
-            <div className="hh">
-              <b>$43,305,552</b>
-            </div>
-          </h2>
-          <div
-            className="button-container"
-            style={{ position: "relative", left: "-570px" }}
-          >
-            <div className="outer-outline">
-              <button className="but-1">7D</button>
-              <button className="but-1">30D</button>
-              <button className="but-1">90D</button>
-              <button className="but-1">180D</button>
-            </div>
-          </div>
+
+      <div className="Data_row">
+        <div className="left_row">
+          <p style={{color:'#c9d6cd'}} >TVL (Total Value Locked)</p>
+          <h1 style={{color:'black'}} >$21,084,418</h1>
         </div>
-        <div className="Right_Vol">
-          <div className="text">
-            <div className="text2">
-              <p>Volume (1D)</p>
-            </div>
-          </div>
-          <h2>
-            <div className="val2">
-              <b>$12,048,024</b>
-            </div>
-          </h2>
-        </div>
-        <div className="button-containers">
-          <div className="outer-outline">
-            <button className="s1">7D</button>
-            <button className="s1">30D</button>
-            <button className="s1">90D</button>
-            <button className="s1">180D</button>
+
+        <div className="btn6_outline">
+          <div className="btn_pool">
+            <button className="btn-6">7D</button>
+            <button className="btn-6">30D</button>
+            <button className="btn-6">90D</button>
+            <button className="btn-6">180D</button>
           </div>
         </div>
 
-        <div className="Image_graph">
-          <img src="tt.png" alt="graph" />
+        <div className="wrapper_pool">
+          <p  style={{color:'#c9d6cd'}} >Volume (1D)</p>
+          <h1 style={{color:'black'}} >$8,418,928</h1>
+        </div>
+        <div className="btn7_outline">
+          <div className="btn_pool2">
+            <button className="btn-7">7D</button>
+            <button className="btn-7">30D</button>
+            <button className="btn-7">90D</button>
+            <button className="btn-7">180D</button>
+          </div>
         </div>
       </div>
+      {/* <div className="graphy">
+        <img src="tt.png" alt="graph"></img>
+      </div> */}
     </div>
   );
 }

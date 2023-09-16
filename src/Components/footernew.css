@@ -3,6 +3,7 @@ body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
+
 *{
 	margin:0;
 	padding:0;
@@ -17,9 +18,13 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
-ul{
+.footerinnerboxes{
+	
 	list-style: none;
 	padding-left: 0px;
+}
+.footerineritemssyt{
+	color: black;
 }
 .footer{
 	background-color: #ffe9d7;

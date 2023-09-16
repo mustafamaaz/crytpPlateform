@@ -10,17 +10,13 @@ const App = () => {
 
 
         <div className='container-fluid cardheightvh' style={{paddingTop:'25px'}} >
-
-
-       
-
             <br />  <br />
 
 
             <div className='row  homecardgrid'>
 
 
-                <div className="col-md-6  carts" style={{ paddingRight: '15px', textAlign: 'center' }}>
+                <div className="col-md-6  carts cartsbotompading "  style={{ paddingRight: '15px', textAlign: 'center' }}>
                     {/* Card 1 */}
                     <br />
                     No currencies seleted.
@@ -95,8 +91,8 @@ const App = () => {
 
 
 {/* <div  style={{ width: '70%' }}  className='btn  mx-1 fs-5   connectwalletbtnout   wallettradebtn overflowbtntradecollect ' > */}
-<div >
-<div  style={{ width: '70%' }}  className='connect-btn  '  to="/createuser">Connect Wallet</div>
+<div  className='connect-btn-outline-page1  '  >
+<div  style={{ }}  className='connect-btn  '  to="/createuser" >Connect Wallet</div>
 </div>
 {/* </div> */}
                            
