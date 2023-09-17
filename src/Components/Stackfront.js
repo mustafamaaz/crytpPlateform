@@ -1,91 +1,376 @@
 import React from "react";
 import "../Components/stackfront.css";
+import { colors } from "@mui/material";
 
 export default function Stackfront() {
   return (
-    <div className="secondpagemargin" >
-      <div className="ppp">
-        <div className="fs-2">
-          <div className="yu">Stake</div>
-        </div>
-        <div className="liquid">Stake your JOE tokens and earn more.</div>
+    <div>
 
-        <div className="button-container">
-          <div className="outer-outline">
+
+
+<div className="heading-top-margin" > 
+
+
+
+<div className="stack-and-btn-flex"  >
+  
+  <div>
+        <div >
+          <div className="stake-fonts-syt">Stake</div>
+        </div>
+        <div className="stake-text-font">Stake your JOE tokens and earn more.</div>
+        </div>
+        
+          <div className="usd-and-joe-btn-outline">
+
+            <button className="usd-and-joe-btn">USD</button>
+            <button className="usd-and-joe-btn ">JOE</button>
+          </div>
+
+          </div>
+
+
+
+
+
+
+          <div className="stack-and-btn-flex "   >
+  
+  <div>
+        <div className="" style={{fontSize:'20px'}}>
+          <div >Total Staked sJOE</div>
+        </div>
+        <div className="" style={{fontSize:'30px' , color:'black' }}>$29,251,555</div>
+        </div>
+        
+          <div className="usd-and-joe-btn-outline  uper-4-btn-hide">
             {/* style={{ position: "relative", right: "-400px" }} */}
 
-            <button className="but-1">USD</button>
-            <button className="but-1">JOE</button>
+            <button className="usd-and-joe-btn">70D</button>
+            <button className="usd-and-joe-btn ">30D</button>
+            <button className="usd-and-joe-btn ">90D</button>
+            <button className="usd-and-joe-btn ">180D</button>
           </div>
 
-          <div className="think">
-            <div className="outer-outline">
-              <button className="but-1">7D</button>
-              <button className="but-1">30D</button>
-              <button className="but-1">90D</button>
-              <button className="but-1">180D</button>
-            </div>
+
+
           </div>
-        </div>
-      </div>
-
-      <div className="data">
-        <div className="blah">
-          <p>Total Staked sJOE</p>
-        </div>
-        <div className="sb">$29,251,555</div>
-      </div>
-
-      <div className="dd">
-        <div className="button-container">
-          <div>
-            {/* style={{ position: "relative", right: "-400px", top: "50px" }} */}
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <img className="imgdecoration" src="kk.png" alt="Graph"></img>
-      </div>
-
-      <div className="container-card-trade">
-        <div className="content-section">
-          <div className="card">
-            <div className="edit">
-              <div className="r1">
-                <img src="cc.png" alt="logo"></img>
-                <p>sJOE</p>
-                <div className="java">
-                  <a href="/">Earn USD Stablecoins</a>
-                </div>
-              </div>
-              <div className="pso">
-                <div className="steel">
-                  <i>Total Stacked (USD) </i>
-                  <p>$9,416,512</p>
-                </div>
-                <div className="chachu">
-                  <i>Your Stake(USD) </i>
-                  <p>$0.0</p>
-                </div>
-              </div>
-              <div className="total">
-                <div className="shah">
-                  <i>APR (30D) </i>
-                  <p>1.71%</p>
-                </div>
-                <div className="mus">
-                  <i>Deposit fee(USD) </i>
-                  <p>$0.0</p>{" "}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
 
-    </div>
+
+</div>
+
+
+{/* ---------------------card------------------- */}
+
+
+
+<div style={{display:'grid' }} >
+  
+  
+
+
+
+<div className="all-cards-outer-body-adjustment"  >
+
+
+
+{/* card 1 */}
+
+
+
+<div className="card1-outer-body-whole" >
+<div className=" card-1-body-spacing " >
+
+
+
+
+
+<div style={{marginBottom:'25px'}} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div>
+<img       className="card-img-sizing-multiple"
+              src='cc.png'// Replace with the actual path to your logo image
+              alt="Logo"
+             
+            />
+</div>
+<div className="in-card-earn-btn-outer"  > 
+  <div className="card-earn-btn-inner">
+  Earn USD Stablecoins
+  </div>
+</div>
+</div>
+</div>
+
+
+  <div className="in-second-row-card" style={{marginBottom:'12px'}} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-fields-font-sizes" >
+  Total Staked (USD)
+</div>
+<div className="cards-fields-font-sizes" > 
+  Your Stake (USD)
+</div>
+</div>
+
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-field-numbwe-color" >
+  $394,989,00
+</div>
+<div className="cards-field-numbwe-color" > 
+  $0
+</div>
+</div> 
+</div>
+
+
+
+<div  className="in-second-row-card" style={{marginBottom:'12px' }} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div  className="cards-fields-font-sizes">
+  ARF 30D(USD)
+</div>
+<div className="cards-fields-font-sizes" > 
+  deposit Fee
+</div>
+</div>
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-field-numbwe-color" >
+  $394,989,00
+</div>
+<div className="cards-field-numbwe-color" > 
+  $0
+</div>
+</div> 
+</div>
+
+
+
+</div>
+</div>
+
+{/* ========================card 2 =================== */}
+
+
+<div className="card1-outer-body-whole" >
+<div className=" card-1-body-spacing " >
+
+
+<div style={{marginBottom:'25px'}} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div>
+<img          className="card-img-sizing-multiple"
+              src='cc.png'// Replace with the actual path to your logo image
+              alt="Logo"
+             
+            />
+</div>
+<div className="in-card-earn-btn-outer"  > 
+  <div className="card-earn-btn-inner">
+  Earn USD Stablecoins
+  </div>
+</div>
+</div>
+</div>
+
+
+  <div className="in-second-row-card" style={{marginBottom:'12px'}} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-fields-font-sizes">
+  Total Staked (USD)
+</div>
+<div className="cards-fields-font-sizes" > 
+  Your Stake (USD)
+</div>
+</div>
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-field-numbwe-color" >
+  $394,989,00
+</div>
+<div className="cards-field-numbwe-color" > 
+  $0
+</div>
+</div> 
+</div>
+
+<div  className="in-second-row-card" style={{marginBottom:'12px' }} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-fields-font-sizes">
+  ARF 30D(USD)
+</div>
+<div className="cards-fields-font-sizes" > 
+  deposit Fee
+</div>
+</div>
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-field-numbwe-color" >
+  $394,989,00
+</div>
+<div className="cards-field-numbwe-color" > 
+  $0
+</div>
+</div> 
+</div>
+
+</div>
+</div>
+</div>
+{/* ===============2nd row============================== */}
+<div className="all-cards-outer-body-adjustment"  >
+{/* card 1 */}
+
+
+
+<div className="card1-outer-body-whole" >
+<div className=" card-1-body-spacing " >
+
+
+
+
+
+<div style={{marginBottom:'25px'}} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div>
+<img       className="card-img-sizing-multiple"
+              src='cc.png'// Replace with the actual path to your logo image
+              alt="Logo"
+             
+            />
+</div>
+<div className="in-card-earn-btn-outer"  > 
+  <div className="card-earn-btn-inner">
+  Earn USD Stablecoins
+  </div>
+</div>
+</div>
+</div>
+
+
+  <div className="in-second-row-card" style={{marginBottom:'12px'}} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-fields-font-sizes" >
+  Total Staked (USD)
+</div>
+<div className="cards-fields-font-sizes" > 
+  Your Stake (USD)
+</div>
+</div>
+
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-field-numbwe-color" >
+  $394,989,00
+</div>
+<div className="cards-field-numbwe-color" > 
+  $0
+</div>
+</div> 
+</div>
+
+
+
+<div  className="in-second-row-card" style={{marginBottom:'12px' }} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div  className="cards-fields-font-sizes">
+  ARF 30D(USD)
+</div>
+<div className="cards-fields-font-sizes" > 
+  deposit Fee
+</div>
+</div>
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-field-numbwe-color" >
+  $394,989,00
+</div>
+<div className="cards-field-numbwe-color" > 
+  $0
+</div>
+</div> 
+</div>
+
+
+
+</div>
+</div>
+
+{/* ========================card 2 =================== */}
+
+
+<div className="card1-outer-body-whole" >
+<div className=" card-1-body-spacing " >
+
+
+<div style={{marginBottom:'25px'}} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div>
+<img          className="card-img-sizing-multiple"
+              src='cc.png'// Replace with the actual path to your logo image
+              alt="Logo"
+             
+            />
+</div>
+<div className="in-card-earn-btn-outer"  > 
+  <div className="card-earn-btn-inner">
+  Earn USD Stablecoins
+  </div>
+</div>
+</div>
+</div>
+
+
+  <div className="in-second-row-card" style={{marginBottom:'12px'}} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-fields-font-sizes">
+  Total Staked (USD)
+</div>
+<div className="cards-fields-font-sizes" > 
+  Your Stake (USD)
+</div>
+</div>
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-field-numbwe-color" >
+  $394,989,00
+</div>
+<div className="cards-field-numbwe-color" > 
+  $0
+</div>
+</div> 
+</div>
+
+<div  className="in-second-row-card" style={{marginBottom:'12px' }} >
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-fields-font-sizes">
+  ARF 30D(USD)
+</div>
+<div className="cards-fields-font-sizes" > 
+  deposit Fee
+</div>
+</div>
+<div style={{display:'flex' , justifyContent:'space-between'}}  >
+<div className="cards-field-numbwe-color" >
+  $394,989,00
+</div>
+<div className="cards-field-numbwe-color" > 
+  $0
+</div>
+</div> 
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+      
+</div>
+    
   );
 }

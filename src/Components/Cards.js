@@ -9,8 +9,8 @@ const App = () => {
     return (
 
 
-        <div className='container-fluid cardheightvh' style={{paddingTop:'25px'}} >
-            <br />  <br />
+        <div className='container-fluid cardheightvh'  >
+           
 
 
             <div className='row  homecardgrid'>
@@ -28,28 +28,35 @@ const App = () => {
 
 
 
-<div className='swapbtn  overflowbtntrade ' >
-                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/swap">Swap</Link>
-                {/* style={{ position: 'absolute', right: '950px' }} */}
-                &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
+<div className='swapbtn  overflowbtntrade '  >
 
-                <Link  className="btn   mx-1 fs-5 custom-btn-2 " to="/place">Place Order</Link>
+              <Link  className="btn   mx-1   swap-and-placeorder-btn " to="/swap">Swap</Link>
+                {/* style={{ position: 'absolute', right: '950px' }} */}
+              
+                <Link  className="btn   mx-1   swap-and-placeorder-btn " to="/place"> Place  <span className='span-order-adjustment' >    Order </span> </Link>
+
                 {/* style={{ position: 'absolute', right: '830px' }} */}
-            </div   >
+            </div>
+
+            
+
+
 
                 <div class="card    cart_shadow" >
 
 
-                    <ul class="list-group list-group-flush"  >
-                        <li class="list-group-item fs-4" style={{ height: '200px' }}  >From <br></br>
+                    <div class="card-inner-body-margin"  >
+
+
+                        <div class=" fs-4  card-uper-half-body "  >From <br></br>
 
 
                             <Dropdown className='cardinnerinputandbtn' >
 
 
-                            <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white' }} ></Input>
+                            <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white' , textDecoration:'none' }} ></Input>
 
-                            &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
+                           
 
 
 
@@ -64,18 +71,36 @@ const App = () => {
                                 </Dropdown.Menu>
                             </Dropdown>
                             {/* <a style={{ position: 'absolute', right: '100px', top: '59px' }} className="btn   mx-1 fs-5 custom-btn-2 " to="/createuser">Select</a> */}
-                        </li>
+                        </div>
+
+
+
+<div style={{display:'flex' , flexDirection:'row'}}>
+   
+      <hr  className='horizontal-lines'  ></hr>
+ 
+    <div>
+    <img        className='arrow-img-size'
+              src='arrow-of-card.png'// Replace with the actual path to your logo image
+              alt="botm"
+            //   style={{  height: '30px', width: 'auto',  }}
+            />
+    </div>
+    
+    <hr  className='horizontal-lines'  ></hr>
+    
+</div>
 
 
 
 
-                        <li class="list-group-item fs-4" style={{display:'grid' }}  >To <br></br>
+                        <div class=" fs-4" style={{display:'grid' }}  >To <br></br>
 
 
                             <Dropdown className='cardinnerinputandbtn'  >
 
                             <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white' }}  ></Input>
-                             &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+                            
 
                                 <Dropdown.Toggle className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
                                     USD
@@ -87,7 +112,7 @@ const App = () => {
                                 </Dropdown.Menu>
                             </Dropdown>
 
-                            <br />   <br />
+                            <br /> 
 
 
 {/* <div  style={{ width: '70%' }}  className='btn  mx-1 fs-5   connectwalletbtnout   wallettradebtn overflowbtntradecollect ' > */}
@@ -96,14 +121,17 @@ const App = () => {
 </div>
 {/* </div> */}
                            
-                        </li>
+                        </div>
 
 
 
-                    </ul>
+                    </div>
+
+
+
+
+
                 </div>
-
-
                 </div>
 
 
@@ -114,7 +142,7 @@ const App = () => {
             </div>
 
 
-            <br />  <br />  <br />  <br />  <br />  <br />
+            <br />  <br />  <br /> 
         </div>
     );
 };

@@ -35,7 +35,7 @@ const [cartView,setCartView] = useState(false);
         <nav className="navbar-expand-lg  "   >
           <div  className=" navsyt nav-color">
 
-            &nbsp;&nbsp;
+           
 <div className='logoname' >
 <img
               src='logoname.png'// Replace with the actual path to your logo image
@@ -46,7 +46,7 @@ const [cartView,setCartView] = useState(false);
 </div>
           
 
-            &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
+          
 
             <div className='btncenter'  >
 
@@ -56,7 +56,7 @@ const [cartView,setCartView] = useState(false);
               </Link>
              
             
-              &nbsp;&nbsp;  &nbsp;&nbsp;
+             
              
               <Link className="btn   mx-1 fs-4  changebutton "  to= "/pool" >
                  Pool
@@ -111,20 +111,6 @@ const [cartView,setCartView] = useState(false);
           </div>
           
         </nav>
-
-        <br></br>  <br></br>
-
-
-
-
-
-  
-
-
-
-
-
-
 
       </div>
    

@@ -8,7 +8,7 @@ import Logotag from '../Components/Logotag'
 export default function Home() {
   return (
     <div  >
-      <div ><Navbar></Navbar></div>
+      <Navbar></Navbar>
       <div> <Logotag/>  </div>
       <div  className='changebackgroundcolor'>  <Cards></Cards></div>
 
