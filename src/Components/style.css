@@ -538,6 +538,7 @@ display: none;
     background-color: #fbfcfe;
     color: #181818;
     padding: 10px;
+    z-index: 1;
     
 
 }
