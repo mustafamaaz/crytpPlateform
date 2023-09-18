@@ -46,7 +46,10 @@ export default function Stake() {
 
 <div style={{marginTop:'20px' , marginBottom:'20px'}}>
 
-<div className="but-of-uper-table-outline" >
+<div style={{display:'flex' ,flexDirection:'column' }} >
+
+<div className="but-of-uper-table-outline" style={{boxShadow:'5px 10px 9px black'}} >
+
             <div>
             <button  className="but-of-uper-table ">Pools</button>
             </div>
@@ -58,17 +61,11 @@ export default function Stake() {
             <div>
             <button className="but-of-uper-table">My Pools</button>
             </div>
-</div>
-            
-</div>
+            </div>
 
 
 
- 
-
-
-
-<div  className='table-custom-size' style={{ marginLeft: '10%' , marginRight:'10%'   }}>
+            <div  className='table-custom-size' style={{ marginLeft: '10%' , marginRight:'10%' , marginTop:'10px'  }}>
             <TableContainer   >
 
             <Table sx={{ minWidth: 650 }} aria-label='simple table'>
@@ -124,6 +121,36 @@ export default function Stake() {
 
 
     </div>
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+</div>
+
+
+
+ 
+
+
 
 
 

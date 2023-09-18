@@ -95,7 +95,7 @@ color: gray;
 
 .logoname{
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 6px;
     padding-left: 5%;
     padding-right: 2%;
     padding-right: 10%;
@@ -109,10 +109,10 @@ color: gray;
 .navsyt {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     width: 100%;
     overflow: hidden;
-    height: 140px;
+    height: 90px;
     background-color: black;
 
 }
@@ -272,7 +272,8 @@ display: none;
 
     width: 50%;
     display: grid;
-    padding: 60px;
+    /* padding: 60px; */
+    align-items: center;
     
 }
 .cart_shadow {
@@ -358,7 +359,7 @@ display: none;
 
     margin-right: 100px;
     margin-left: 100px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 
@@ -451,10 +452,8 @@ display: none;
 
 
 @media screen and (max-width: 1560px){
-    .navsyt{
-        /* flex-direction: column; */
-    }
-   
+
+
 
 .beachkybtn{
     /* margin-right: 200px; */
@@ -603,7 +602,7 @@ display: none;
     
         margin-right: 10px;
         margin-left: 10px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }    
             }
     

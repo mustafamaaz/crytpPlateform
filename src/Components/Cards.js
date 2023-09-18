@@ -30,7 +30,7 @@ const App = () => {
 
 <div className='swapbtn  overflowbtntrade '  >
 
-              <Link  className="btn   mx-1   swap-and-placeorder-btn " to="/swap">Swap</Link>
+              <Link  className="btn   mx-1   swap-and-placeorder-btn " to="/swap">Swap Now</Link>
                 {/* style={{ position: 'absolute', right: '950px' }} */}
               
                 <Link  className="btn   mx-1   swap-and-placeorder-btn " to="/place"> Place  <span className='span-order-adjustment' >    Order </span> </Link>

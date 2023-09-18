@@ -38,9 +38,9 @@ const [cartView,setCartView] = useState(false);
            
 <div className='logoname' >
 <img
-              src='logoname.png'// Replace with the actual path to your logo image
+              src='logofullname.png'// Replace with the actual path to your logo image
               alt="Logo"
-              style={{  height: '120px', width: '160px',  }}
+              style={{  height: '80px', width: 'auto',  }}
             />
 
 </div>
