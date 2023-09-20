@@ -61,16 +61,17 @@
 }
 
 
-.usd-and-joe-btn{
+.usd, .usd-1{
 border: none;
-background-color: transparent;
+background-color: #113974;
+color: black;
 padding: 10px;
 border-radius: 10px;
 text-align: center;
 }
 
-.usd-and-joe-btn:hover{
-  background-color: gray;
+.usd-active, .usd-1-active {
+  background-color: rgb(149, 189, 202);
 }
 
 .usd-and-joe-btn-outline{

@@ -5,7 +5,7 @@ export default function Logotag() {
   return (
     <div className='logotaghidden' >
          <div className="navbar ">
-      <img src="logoname.png" alt="Logo" className="logo" />
+      <img src="logofullname.png" alt="Logo" className="logo" />
     </div>
     </div>
     

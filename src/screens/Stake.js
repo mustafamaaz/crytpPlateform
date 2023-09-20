@@ -79,8 +79,8 @@ export default function Stake() {
             <TableCell sx={{ fontWeight: 'bold' ,color:'#b5b5b5' , fontSize : 'large'}}>
             <Button size='medium' variant='contained'>LIQUIDITY </Button>
             </TableCell>
-            <TableCell sx={{ fontWeight: 'bold' ,color:'#b5b5b5' , fontSize : 'large'}}>DEPTH</TableCell>
-            <TableCell sx={{ fontWeight: 'bold' ,color:'#b5b5b5', fontSize : 'large'}}>DEPTH</TableCell>
+            <TableCell sx={{ fontWeight: 'bold' ,color:'#b5b5b5' , fontSize : 'large'}}>+2% DEPTH</TableCell>
+            <TableCell sx={{ fontWeight: 'bold' ,color:'#b5b5b5', fontSize : 'large'}}>-2% DEPTH</TableCell>
             <TableCell sx={{ fontWeight: 'bold' ,color:'#b5b5b5', fontSize : 'large'}}>
             <Button size='medium' variant='contained'>FEES </Button>
             </TableCell>

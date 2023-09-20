@@ -12,7 +12,7 @@ body{
 .container{
 	max-width: 1800px;
 	margin:auto;
-	padding: 50px;
+	/* padding: 50px; */
 }
 .row{
 	display: flex;
@@ -28,7 +28,8 @@ body{
 }
 .footer{
 	background-color: #656571;
-    padding: 70px 0;
+    padding-top: 20px;
+	padding-bottom: 40px;
 }
 .footer-col{
    width: 25%;

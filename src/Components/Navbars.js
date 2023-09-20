@@ -85,7 +85,7 @@ const [cartView,setCartView] = useState(false);
 
   <div className="btn   m-2 fs-5 custom-btn-2 " to="/connectwallet"  onClick={collectBtn}  >Connect wallet</div>
 
-
+  {cartView? (document.body.style.overflow = 'hidden' , console.log("card is opened"))  :  (document.body.style.overflow = '' , console.log("card is closed"))  }
   { cartView? <Modal onClose={()=> setCartView(false)}   >  <Cart/> </Modal>:null }
 
 </div>

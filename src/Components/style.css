@@ -16,9 +16,20 @@
     margin-right: 10px;
     margin-left: 10px;
 }
+
 .arrow-img-size{
-    height: 30px;
+    height: 20px;
     width: auto;
+}
+
+.arrow-hover{
+   
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.arrow-hover:hover{
+        background-color: gray;
 }
 .span-order-adjustment{
      font-weight:normal;
@@ -176,8 +187,8 @@ color: gray;
     height: 150px;
     background-color: #000000;
     color: #fff;
-    padding: 10px;
-    display: flex;
+    /* padding: 10px; */
+    /* display: flex; */
 display: none;
   }
 
@@ -190,6 +201,10 @@ display: none;
     padding-right: 120px;
     margin-top: 30px;
     align-items: center;
+    flex-wrap: nowrap;
+       justify-content: space-evenly;
+    justify-content: space-around; 
+    
 
   
 }
@@ -300,7 +315,7 @@ display: none;
 
 .connect-btn {
 
-
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,6 +324,7 @@ display: none;
      /* width: 100%; */
   
   color: rgb(145, 138, 138);
+  /* position: fixed; */
  
   /* padding: 10px 20px; */
   /* padding-left: 200px; */
@@ -369,15 +385,17 @@ display: none;
 
 
 .navbar {
+    height: 60px;
     background-color: black;
     display: flex;
     align-items: center;
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 10px 20px;
     width: 100%;
   }
   
   .logo {
-    max-width: 100px; /* Adjust the logo size */
+    max-width: 81100px; /* Adjust the logo size */
+    height: 47px;
   }
 
 
@@ -393,8 +411,9 @@ display: none;
    
 
     .botomsicons{
+        
         margin-left: -25px;
-        /* padding-bottom: 0px; */
+        padding-bottom: 0px;
         margin-bottom: 50px;
     }
 }
@@ -534,9 +553,11 @@ display: none;
     bottom: 0;
     width: 100%;
     height: 110px;
+    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #fbfcfe;
     color: #181818;
-    padding: 10px;
+    /* padding: 10px; */
     z-index: 1;
     
 
@@ -557,10 +578,12 @@ display: none;
 }
 
 .botomsicons{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 0px;
+    padding-right: 40px;
     margin-top: 30px;
     align-items: center;
+       justify-content: space-evenly;
+    justify-content: space-around; 
 }
 
     }
@@ -585,6 +608,8 @@ display: none;
     height: 60px;
 
     padding: 0px;
+    /* justify-content: space-evenly;
+    justify-content: space-around; */
     /* padding-bottom: 3px; */
     
 
@@ -657,7 +682,7 @@ display: none;
     
     .overflowbtntrade{
         display: flex;
-        margin-right: 200%;
+        margin-right: 94%;
         /* margin-left: 200px; */
         /* left: 100%; */
         /* left: 70px; */

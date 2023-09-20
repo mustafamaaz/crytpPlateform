@@ -1,8 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Components/stackfront.css";
 import { colors } from "@mui/material";
 
 export default function Stackfront() {
+
+  const [colorstack, setcolorstack] = useState(false);
+  const [btnstack,setbtnstack] = useState("7D");
+
+  const [colorstacks, setcolorstacks] = useState(false);
+  const [btnstacks,setbtnstacks] = useState("USD");
+
+  const handleClick9 = () => {
+    setcolorstack(!colorstack);
+    setbtnstack("7D");
+  };
+
+  const handleClick10 = () => {
+    setcolorstack(!colorstack);
+    setbtnstack("30D");
+  };
+
+  const handleClick11 = () => {
+    setcolorstack(!colorstack);
+    setbtnstack("90D");
+  };
+
+  const handleClick12 = () => {
+    setcolorstack(!colorstack);
+    setbtnstack("180D");
+  };
+
+  const handleClick13 = () => {
+    setcolorstacks(!colorstacks);
+    setbtnstacks("USD");
+  };
+
+  const handleClick14 = () => {
+    setcolorstacks(!colorstacks);
+    setbtnstacks("JOE");
+  };
+
   return (
     <div>
 
@@ -23,8 +60,22 @@ export default function Stackfront() {
         
           <div className="usd-and-joe-btn-outline">
 
-            <button className="usd-and-joe-btn">USD</button>
-            <button className="usd-and-joe-btn ">JOE</button>
+          <button
+              onClick={() => handleClick13("USD")}
+              className={`usd-1 ${
+                btnstacks === "USD" ? "usd-1-active" : " rgb(9, 104, 181)"
+              }`}
+            >
+              USD
+            </button>
+            <button
+              onClick={() => handleClick14("JOE")}
+              className={`usd-1 ${
+                btnstacks === "JOE" ? "usd-1-active" : "ffffff"
+              }`}
+            >
+              JOE
+            </button>
           </div>
 
           </div>
@@ -46,10 +97,38 @@ export default function Stackfront() {
           <div className="usd-and-joe-btn-outline  uper-4-btn-hide">
             {/* style={{ position: "relative", right: "-400px" }} */}
 
-            <button className="usd-and-joe-btn">70D</button>
-            <button className="usd-and-joe-btn ">30D</button>
-            <button className="usd-and-joe-btn ">90D</button>
-            <button className="usd-and-joe-btn ">180D</button>
+            <button
+              onClick={() => handleClick9("7D")}
+              className={`usd ${
+                btnstack === "7D" ? "usd-active" : " rgb(9, 104, 181)"
+              }`}
+            >
+              7D
+            </button>
+            <button
+              onClick={() => handleClick10("30D")}
+              className={`usd ${
+                btnstack === "30D" ? "usd-active" : "ffffff"
+              }`}
+            >
+              30D
+            </button>
+            <button
+              onClick={() => handleClick11("90D")}
+              className={`usd ${
+                btnstack === "90D" ? "usd-active" : "fffffff"
+              }`}
+            >
+              90D
+            </button>
+            <button
+              onClick={() => handleClick12("180D")}
+              className={`usd ${
+                btnstack === "180D" ? "usd-active" : "ffffff"
+              }`}
+            >
+              180D
+            </button>
           </div>
 
 
