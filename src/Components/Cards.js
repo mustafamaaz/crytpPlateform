@@ -75,7 +75,7 @@ const App = () => {
                 <Dropdown className='cardinnerinputandbtn' >
 
 
-                    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white', textDecoration: 'none' }} ></Input>
+                    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'black', textDecoration: 'none' , border:'none' , outline:'none',textUnderlineOffset:'none' }} ></Input>
 
 
 
@@ -98,7 +98,7 @@ const App = () => {
 
             <div style={{ display: 'flex', flexDirection: 'row' }}>
 
-                <hr className='horizontal-lines'  ></hr>
+               <hr  className='horizontal-lines' ></hr> 
 
                 <div className='arrow-hover' >
                     <img className='arrow-img-size'
@@ -106,8 +106,7 @@ const App = () => {
                         alt="botm"
                     />
                 </div>
-
-                <hr className='horizontal-lines'  ></hr>
+                <hr className='horizontal-lines' ></hr> 
 
             </div>
 
@@ -119,7 +118,7 @@ const App = () => {
 
                 <Dropdown className='cardinnerinputandbtn'  >
 
-                    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white' }}  ></Input>
+                    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'black' }}  ></Input>
 
 
                     <Dropdown.Toggle className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
@@ -136,7 +135,7 @@ const App = () => {
 
 
                 {/* <div  style={{ width: '70%' }}  className='btn  mx-1 fs-5   connectwalletbtnout   wallettradebtn overflowbtntradecollect ' > */}
-                <div className='connect-btn-outline-page1  '  >
+                <div className='connect-btn-outline-page1'>
                     <div className='connect-btn  ' to="/btn" onClick={collectBtn} >Connect Wallet</div>
 
                     {cartView ? (document.body.style.overflow = 'hidden', console.log("card is opened")) : (document.body.style.overflow = '', console.log("card is closed"))}
@@ -175,7 +174,7 @@ const App = () => {
                 <Dropdown className='cardinnerinputandbtn' >
 
 
-                    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white', textDecoration: 'none' }} ></Input>
+                    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'black', textDecoration: 'none' }} ></Input>
 
 
 
@@ -219,7 +218,7 @@ const App = () => {
 
                 <Dropdown className='cardinnerinputandbtn'  >
 
-                    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white' }}  ></Input>
+                    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'black' }}  ></Input>
 
 
                     <Dropdown.Toggle className=" mx-1 fs-5 custom-btn-2 " variant="success" id="dropdown-basic">
@@ -263,7 +262,7 @@ const App = () => {
 
 
 
-    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'white' }}  ></Input>
+    <Input className='fs-3' aria-label='number' placeholder='0.0' style={{ color: 'black' }}  ></Input>
 
 
 
