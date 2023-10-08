@@ -11,9 +11,18 @@ import Cart from '../screens/Cart';
 export default function Navbar() {
 
 
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+
   function  collectBtn (){
     localStorage.setItem('code',"connect");
     setCartView(true)
+  }
+
+
+
+  function toggleDropdown() {
+    setDropdownOpen(!dropdownOpen);
   }
 
 
@@ -69,11 +78,94 @@ const [cartView,setCartView] = useState(false);
               portfolio
               </Link>
 
-              <svg style={{ paddingRight:'30px' ,paddingLeft:'50px', width:'auto'}} className='  btn   mx-1 fs-4   mx-1  dotbtn  ' xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+            
+
+
+
+
+
+
+
+
+                <div className={`dropdown ${dropdownOpen ? "show" : ""}`}>
+
+
+                <svg onClick={toggleDropdown} style={{ paddingRight:'30px' ,paddingLeft:'50px', width:'auto'}} className='  btn   mx-1 fs-4   mx-1  dotbtn  ' xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
                   <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
                 </svg>
 
+
+
+                {/* <button
+                  className="btn mx-1 fs-4 changebutton dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  onClick={toggleDropdown}
+                  aria-expanded={dropdownOpen}
+                >
+                  <i className="fas fa-ellipsis-v"></i>
+                </button> */}
+
+
+                
+                <ul
+                  className={`dropdown-menu ${dropdownOpen ? "show" : ""}`}
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <li style={{padding:'5px'}} >
+                    <Link  className="dropdown-item" to="/Bridge">
+                      Bridge
+                    </Link>
+                  </li>
+                  <li style={{padding:'5px'}} >
+                    <Link className="dropdown-item" to="/Farm">
+                      Farm
+                    </Link>
+                  </li>
+                  <li style={{padding:'5px'}} >
+                    <Link className="dropdown-item" to="/Lend">
+                      Lend
+                    </Link>
+                  </li>
+                </ul>
               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

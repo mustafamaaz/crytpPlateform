@@ -25,6 +25,19 @@ export default function MobileNav() {
   }
 
 
+  function randerpage4 (){
+
+    navigate('/bridge')
+  }
+
+
+
+  function randerpage5 (){
+
+    navigate('/lend')
+  }
+
+
 
     
   return (
@@ -49,14 +62,14 @@ export default function MobileNav() {
 <div className='mobile-nav-btn-padding' onClick={randerpage2} >
     Stake
 </div>
-<div className='mobile-nav-btn-padding'>
+<div className='mobile-nav-btn-padding' onClick={randerpage4} >
     Bridge
 </div>
 <div className='mobile-nav-btn-padding'>
     Farm
 </div>
 
-<div className='mobile-nav-btn-padding'>
+<div className='mobile-nav-btn-padding' onClick={randerpage5} >
     Lend
 </div>
 

@@ -10,7 +10,7 @@ export default function Pool() {
   return (
     <div>
 
-<div className='footerbackgroundcolor'>
+<div>
 <Navbar/>
 </div>
 

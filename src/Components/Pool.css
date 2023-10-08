@@ -69,7 +69,7 @@ p {
 
 .ddb {
   display: flex;
-  justify-content: end;
+  /* justify-content: end; */
 }
 
 .Data_row {

@@ -1,0 +1,128 @@
+.bridge-whole-page-componenet{
+
+  overflow: auto !important;
+ height: 100vh;
+ padding-bottom: 50px;
+}
+
+
+.bridge-nav-collect-btn {
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: green;
+    height: 50px;
+    border-radius: 18px;
+    width: 180px;
+    justify-content: center;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+        
+}
+.outlined-input {
+    border: 2px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the input field */
+    width: 300px; /* Width of the input field */
+    font-size: 16px; /* Font size */
+    background-color: antiquewhite;
+    color: black;
+  }
+
+
+.bridge-nav-collect-btn:hover {
+    width: 190px;
+  transition: 0.20s;
+   cursor: pointer;
+   height: 55px;
+        
+}
+
+
+
+
+
+.bridge-custom-btn-1{
+    height: 85px;
+    width: 230px;
+  background-color: black; /* Set the background color */
+  color: rgb(255, 255, 255); /* Set the text color */
+  border-radius: 10px; /* Adjust the border radius as needed */
+  /* padding: 10px 20px; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 40%; */
+  /* overflow: hidden; */
+  outline: 1px solid white;
+}
+
+.bridge-custom-btn-1:hover{
+
+cursor: pointer;
+background-color: rgb(71, 69, 69);
+
+}
+
+.bridge-maa-connect-btn{
+  
+height: 60px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 33px;
+background-color: #7e87f7;
+border-radius: 20px;
+box-shadow: 1px 4px 2px #2b2c33;
+
+}
+
+.bridge-maa-btn-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.bridge-maa-btn-text:hover{
+  border-radius: 20px;
+  background-color: #434781;
+  cursor: pointer;
+}
+
+
+.bridge-card-first-row{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+margin-bottom: 27px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+  .bridge-card-first-row{
+  
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+    }
+
+
+    .bridge-custom-btn-1{
+     width: 100%;
+  }
+  
+    
+    
+
+
+}

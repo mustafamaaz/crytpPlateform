@@ -8,15 +8,19 @@ import Logotag from '../Components/Logotag'
 export default function Home() {
   return (
     <div  >
+
       <Navbar></Navbar>
-      <div> <Logotag/>  </div>
-      <div  className='changebackgroundcolor'>  <Cards></Cards></div>
+       <Logotag/>  
+      <div  className='changebackgroundcolor'>  <Cards></Cards>
+      
+      <Bottombar/> 
 
-      <div> <Bottombar/>  </div>
 
+<Footer></Footer>  
 
-      <div>  <Footer></Footer>  </div>
+      </div>
 
+     
 
     </div>
   )

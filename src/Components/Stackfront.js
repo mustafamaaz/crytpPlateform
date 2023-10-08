@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Components/stackfront.css";
-import { colors } from "@mui/material";
+
 
 export default function Stackfront() {
 
@@ -41,7 +41,7 @@ export default function Stackfront() {
   };
 
   return (
-    <div>
+    <div   >
 
 
 
@@ -49,7 +49,7 @@ export default function Stackfront() {
 
 
 
-<div className="stack-and-btn-flex"  >
+<div className="stack-and-btn-flex"   >
   
   <div>
         <div >

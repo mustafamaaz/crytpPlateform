@@ -4,6 +4,121 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 
+
+
+.footer {
+	position:static;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+
+	background-color: #656571;
+    padding-top: 20px;
+	overflow: hidden;
+
+  }
+
+  .footer-img-icon-size-mob{
+
+	width: 40px;
+	height: 40px;
+	margin: 16px;
+  }
+  
+  .footer-content {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .help-text,
+  .discord-text {
+	
+	/* margin-bottom: 10px; */
+	margin: 10px;
+  }
+  
+  .social-links a {
+	text-decoration: none;
+	color: black;
+	margin: 10px;  }
+  
+
+	.information{
+		text-decoration: none;
+		color: rgb(179, 179, 201);
+		/* margin-right: 10px; */
+		margin: 10px;
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	.information:hover{
+
+		color: rgb(23, 23, 25);
+		background-color: #ede6e9;
+		cursor: pointer;
+		padding: 2px;
+		border-radius: 10px;
+		user-select: none;
+		
+	}
+
+
+  .footer-links{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ padding-bottom: 6px;
+  }
+  
+  .copyright {
+	color: black;
+	margin-bottom: 10px;
+	/* margin-top: 20px; */
+  }
+
+  
+
+  
+@media(max-width: 600px){
+	.information{
+		margin: 5px;
+		font-weight: bold;
+		font-size: 13px;
+	}
+
+	
+	.footer-img-icon-size-mob{
+
+		width: 30px;
+		height: 30px;
+		margin: 5px;
+	  }
+
+	  .copyright {
+		color: black;
+		margin-bottom: 60px;
+		/* margin-top: 20px; */
+	  }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{
 	margin:0;
 	padding:0;
@@ -26,11 +141,7 @@ body{
 .footerineritemssyt{
 	color: black;
 }
-.footer{
-	background-color: #656571;
-    padding-top: 20px;
-	padding-bottom: 40px;
-}
+
 .footer-col{
    width: 25%;
    padding: 0 15px;

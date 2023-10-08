@@ -30,7 +30,7 @@ export default function Cart() {
               alt="Logo"
               style={{  height: '35px', width: 'auto',  }}
             />
-            <div className='modal-card-text' >Core</div>
+            <div className='modal-card-text' >Xumm</div>
 
 
   </div>

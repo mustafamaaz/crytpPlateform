@@ -1,0 +1,566 @@
+.nav-color {
+  background-color: black;
+}
+.card-inner-body-margin {
+  margin: 30px;
+}
+.card-uper-half-body {
+  height: 150px;
+}
+.horizontal-lines {
+  width: 40%;
+  height: auto;
+  flex-grow: 1;
+
+  background-color: #000000 !important;
+
+  padding: 1.2px;
+}
+
+.arrow-img-size {
+  height: 17px;
+  width: auto;
+}
+
+.arrow-hover {
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.arrow-hover:hover {
+  background-color: gray;
+}
+.span-order-adjustment {
+  font-size: 16px;
+  font-weight: 600;
+  color: white !important;
+  padding-left: 5px;
+}
+.cardheightvh {
+  height: 100%;
+  padding-top: 25px;
+  /* overflow-y: scroll; */
+}
+
+.logotaghidden {
+  display: none;
+}
+
+.body {
+  background-color: rgb(249, 249, 249) !important;
+}
+
+.custom-search-bar {
+  width: 520px; /* Adjust the width to your desired value */
+}
+
+.changebutton {
+  padding-left: 20px;
+  color: gray;
+}
+.changebutton:hover {
+  color: white;
+  background-color: black;
+}
+.btnborder {
+  outline: rgb(240, 240, 243);
+  color: black;
+  background-color: gray;
+}
+
+.custom-btn-1,
+.custom-btn-2 {
+  height: 50px;
+  background-color: black; /* Set the background color */
+  color: rgb(255, 255, 255); /* Set the text color */
+  border: 2px solid rgb(234, 234, 242); /* Set the outline border color and width */
+  border-radius: 10px; /* Adjust the border radius as needed */
+  padding: 10px 20px;
+  align-items: center;
+  display: flex;
+  margin-right: 40%;
+}
+
+.dotbtn {
+  height: 30px;
+  width: auto;
+  background-color: black;
+  align-items: center;
+  /* overflow: hidden; */
+  padding-left: 30px;
+}
+
+.dotbtn:hover {
+  background-color: rgb(225, 218, 218);
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logoname_lend {
+  margin-left: 30px;
+  margin-top: 6px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-right: 10%;
+  margin-bottom: 10px;
+  height: 120px;
+  width: 170px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navsyt {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  width: 100%;
+  /* overflow: hidden; */
+  height: 90px;
+  background-color: black;
+}
+.btncenter_lend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 350px;
+  line-height: 0px;
+}
+
+.rightnavbtn {
+  display: flex;
+  flex-direction: row;
+
+  height: 50px;
+  background-color: black; /* Set the background color */
+  color: rgb(255, 255, 255); /* Set the text color */
+  border: 2px solid rgb(234, 234, 242); /* Set the outline border color and width */
+  border-radius: 10px; /* Adjust the border radius as needed */
+  padding: 10px 20px;
+  align-items: center;
+
+  margin-right: 30%;
+}
+
+.itemflex_lend {
+  position: absolute;
+  right: 40px;
+  display: flex;
+  line-height: 0px;
+  margin-left: auto;
+}
+
+.adjustleftbtn {
+  display: flexbox;
+}
+
+.lend_nav_dropdown {
+  position: absolute;
+  right: 250px;
+  top: 12px;
+  display: flex;
+}
+.beachkybtn_lend {
+  padding-right: 350px;
+  padding-left: 300px;
+  display: flex;
+}
+
+.bottom-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #000000;
+  color: #fff;
+  /* padding: 10px; */
+  /* display: flex; */
+  display: none;
+}
+
+.botomsicons {
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-top: 30px;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+/* -------------bottom bar --------------------- */
+
+/* ---------------- cards ------------- */
+
+.swap-and-placeorder-btn {
+  font-size: 16px;
+  font-weight: 600;
+  height: 55px;
+  width: 140px;
+  background-color: black; /* Set the background color */
+  color: rgb(255, 255, 255); /* Set the text color */
+  border: 2px solid rgb(234, 234, 242); /* Set the outline border color and width */
+  border-radius: 30px; /* Adjust the border radius as needed */
+  padding: 0px 10px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  margin-right: 40%;
+}
+
+.wallettradebtn {
+  /* display: flex; */
+  /* align-items: stretch; */
+  /* justify-content: center; */
+}
+
+.cardinnerinputandbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carts {
+  border-radius: 30px;
+
+  width: 50%;
+  display: grid;
+  /* padding: 60px; */
+  align-items: center;
+}
+.cart_shadow {
+  border-radius: 10px;
+
+  outline: 1px solid rgb(191, 191, 191);
+  color: rgb(23, 23, 23);
+  overflow: hidden;
+  background-color: white;
+}
+
+/* 
+
+.connectwalletbtnout{
+
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 2px white;
+    outline: rgb(240, 240, 243);
+    border: 2px solid rgb(234, 234, 242);
+    background-color: rgb(29, 65, 165); 
+} */
+
+.connect-btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  /* width: 170px; */
+  /* width: 100%; */
+
+  color: rgb(253, 244, 244);
+  /* position: fixed; */
+
+  /* padding: 10px 20px; */
+  /* padding-left: 200px; */
+  /* width: ; */
+
+  font-size: 20px;
+  cursor: pointer;
+
+  /* margin-left: 14%; */
+}
+
+.connect-btn-outline-page1 {
+  border: 2px solid rgb(131, 127, 127);
+  border-radius: 30px;
+  background-color: rgb(107, 102, 194);
+  width: 70%;
+  height: 50px;
+  margin-left: 15%;
+  align-items: center;
+}
+
+.connect-btn-outline-page1:hover {
+  background-color: rgb(72, 66, 181);
+  color: rgb(7, 6, 6);
+}
+
+.swapbtn {
+  display: flex;
+  width: auto;
+  height: 50px;
+  margin-bottom: 23px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  margin: 30px;
+  padding: 0px;
+}
+
+.homecardgrid {
+  margin-right: 100px;
+  margin-left: 100px;
+  /* margin-top: 20px; */
+}
+
+/* =========================logotag====================== */
+
+.navbar {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.logo {
+  max-width: 81100px; /* Adjust the logo size */
+  height: 47px;
+}
+
+/* __________________________ media query -============================= */
+
+@media screen and (max-width: 470px) {
+  .botomsicons {
+    margin-left: -25px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .botomsicons {
+    margin-left: -40px;
+  }
+}
+
+@media screen and (max-width: 1670px) {
+  .itemflex_lend {
+    position: absolute;
+    right: 50px;
+    /* margin-left: 0%; */
+
+    /* margin-right: auto; */
+  }
+
+  .beachkybtn_lend {
+    padding-right: 190px;
+  }
+  .logoname_lend {
+    float: left;
+    margin-left: 0%;
+  }
+
+  .bottom-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  .beachkybtn_lend {
+    /* margin-right: 200px; */
+    padding-right: 110px;
+  }
+  .logoname_lend {
+    float: left;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 1299px) {
+  .logoname_lend {
+    float: left;
+    margin-left: 0%;
+  }
+
+  .beachkybtn_lend {
+    /* margin-right: 200px; */
+    padding-right: 40px;
+  }
+}
+
+.beachkybtn_lend {
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 1215px) {
+  .logoname_lend {
+    position: absolute;
+    left: -100%;
+  }
+
+  .beachkybtn_lend {
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1093px) {
+  .hiddennav_lend {
+    display: none;
+  }
+
+  .logotaghidden {
+    display: flex;
+  }
+
+  .navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+
+  .cardheightvh {
+    height: 100%;
+    width: auto;
+    /* overflow-y: scroll; */
+  }
+
+  .bottom-bar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    background-color: #fbfcfe;
+    color: #181818;
+    /* padding: 10px; */
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .cardheightvh {
+    /* height: 100%; */
+    padding-top: 0px;
+    /* overflow-y: scroll; */
+  }
+
+  .botomsicons {
+    padding-left: 0px;
+    padding-right: 40px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+  }
+
+  .card-uper-half-body {
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .card-inner-body-margin {
+    margin: 15px;
+  }
+
+  .botomsicons {
+    padding-left: 65px;
+    /* padding-right: 65px; */
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .card-uper-half-body {
+    height: 115px;
+  }
+
+  .horizontal-lines {
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .bottom-bar {
+    /* width: 100%; */
+    height: 60px;
+
+    padding: 0px;
+    /* justify-content: space-evenly;
+    justify-content: space-around; */
+    /* padding-bottom: 3px; */
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .homecardgrid {
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .homecardgrid {
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+
+  .carts {
+    border-radius: 30px;
+    width: 100%;
+    display: grid;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .custom-btn-2 {
+    padding: 10px;
+    height: 40px;
+  }
+
+  .arrow-img-size {
+    height: 20px;
+    width: auto;
+  }
+
+  .swapbtn {
+    display: flex;
+    height: 30px;
+    /* margin-left: 10px; */
+  }
+  .swap-and-placeorder-btn {
+    padding-top: 0px;
+  }
+
+  .cartsbotompading {
+    padding-bottom: 0px !important;
+  }
+  .carts {
+    border-radius: 30px;
+    width: 100%;
+    display: grid;
+    padding: 0px;
+  }
+
+  .overflowbtntrade {
+    display: flex;
+    margin-right: 94%;
+    /* margin-left: 200px; */
+    /* left: 100%; */
+    /* left: 70px; */
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+
+  .overflowbtntradecollect {
+    display: flex;
+    margin-right: 200%;
+    /* margin-left: 200px; */
+    /* left: 100%; */
+    /* left: 70px; */
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+}
